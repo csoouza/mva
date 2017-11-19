@@ -1,0 +1,1256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B0171261CF1F97100667CC6 /* letraaavestruz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171231CF1F97100667CC6 /* letraaavestruz.wav */; };
+		2B0171271CF1F97100667CC6 /* letraamaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171241CF1F97100667CC6 /* letraamaiuscula.wav */; };
+		2B0171281CF1F97100667CC6 /* letraaminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171251CF1F97100667CC6 /* letraaminuscula.wav */; };
+		2B0171711CF234EF00667CC6 /* intro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171701CF234EF00667CC6 /* intro.wav */; };
+		2B0171751CF23AD300667CC6 /* letrab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0171741CF23AD300667CC6 /* letrab.swift */; };
+		2B0171781CF23D0F00667CC6 /* letrabmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171761CF23D0F00667CC6 /* letrabmaiuscula.wav */; };
+		2B0171791CF23D0F00667CC6 /* letrabminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171771CF23D0F00667CC6 /* letrabminuscula.wav */; };
+		2B01717B1CF242DB00667CC6 /* baleia.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B01717A1CF242DB00667CC6 /* baleia.png */; };
+		2B01717D1CF2443F00667CC6 /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B01717C1CF2443F00667CC6 /* cachorro.png */; };
+		2B01717F1CF2447800667CC6 /* letrac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01717E1CF2447800667CC6 /* letrac.swift */; };
+		2B0171821CF244D300667CC6 /* letracmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171801CF244D300667CC6 /* letracmaiuscula.wav */; };
+		2B0171831CF244D300667CC6 /* letracminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171811CF244D300667CC6 /* letracminuscula.wav */; };
+		2B0171851CF246F400667CC6 /* letrad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0171841CF246F400667CC6 /* letrad.swift */; };
+		2B0171881CF247CA00667CC6 /* letradmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171861CF247CA00667CC6 /* letradmaiuscula.wav */; };
+		2B0171891CF247CA00667CC6 /* letradminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171871CF247CA00667CC6 /* letradminuscula.wav */; };
+		2B01718B1CF2488300667CC6 /* letrae.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01718A1CF2488300667CC6 /* letrae.swift */; };
+		2B01718D1CF248EA00667CC6 /* elefante.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B01718C1CF248EA00667CC6 /* elefante.png */; };
+		2B0171901CF2496200667CC6 /* letraemaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B01718E1CF2496200667CC6 /* letraemaiuscula.wav */; };
+		2B0171911CF2496200667CC6 /* letraeminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B01718F1CF2496200667CC6 /* letraeminuscula.wav */; };
+		2B0171931CF24B2F00667CC6 /* foca.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171921CF24B2F00667CC6 /* foca.png */; };
+		2B0171951CF24B7B00667CC6 /* letraf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0171941CF24B7B00667CC6 /* letraf.swift */; };
+		2B0171981CF24C0700667CC6 /* letrafmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171961CF24C0700667CC6 /* letrafmaiuscula.wav */; };
+		2B0171991CF24C0700667CC6 /* letrafminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171971CF24C0700667CC6 /* letrafminuscula.wav */; };
+		2B01719B1CF24DD700667CC6 /* gato.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B01719A1CF24DD700667CC6 /* gato.png */; };
+		2B01719D1CF24E3700667CC6 /* letrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01719C1CF24E3700667CC6 /* letrag.swift */; };
+		2B0171A01CF24F1000667CC6 /* letragmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B01719E1CF24F1000667CC6 /* letragmaiuscula.wav */; };
+		2B0171A11CF24F1000667CC6 /* letragminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B01719F1CF24F1000667CC6 /* letragminuscula.wav */; };
+		2B0171A31CF2507C00667CC6 /* hipopotamo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171A21CF2507C00667CC6 /* hipopotamo.png */; };
+		2B0171A51CF2510B00667CC6 /* letrah.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0171A41CF2510B00667CC6 /* letrah.swift */; };
+		2B0171A81CF2515300667CC6 /* letrahmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171A61CF2515300667CC6 /* letrahmaiuscula.wav */; };
+		2B0171A91CF2515300667CC6 /* letrahminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171A71CF2515300667CC6 /* letrahminuscula.wav */; };
+		2B0171AB1CF2556B00667CC6 /* iguana.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171AA1CF2556B00667CC6 /* iguana.png */; };
+		2B0171AD1CF255F900667CC6 /* letrai.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0171AC1CF255F900667CC6 /* letrai.swift */; };
+		2B0171B11CF2581D00667CC6 /* letraiminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171AF1CF2581D00667CC6 /* letraiminuscula.wav */; };
+		2B0171B41CF2593900667CC6 /* letraimaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171B21CF2593900667CC6 /* letraimaiuscula.wav */; };
+		2B0171B91CF25BF700667CC6 /* letraj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0171B81CF25BF700667CC6 /* letraj.swift */; };
+		2B0171BC1CF25C9200667CC6 /* letrajmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171BA1CF25C9200667CC6 /* letrajmaiuscula.wav */; };
+		2B0171BD1CF25C9200667CC6 /* letrajminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171BB1CF25C9200667CC6 /* letrajminuscula.wav */; };
+		2B0171C01CF25F6D00667CC6 /* letrakmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171BE1CF25F6D00667CC6 /* letrakmaiuscula.wav */; };
+		2B0171C11CF25F6D00667CC6 /* letrakminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171BF1CF25F6D00667CC6 /* letrakminuscula.wav */; };
+		2B0171C31CF25FBA00667CC6 /* jacare.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171C21CF25FBA00667CC6 /* jacare.png */; };
+		2B0171C51CF2606100667CC6 /* letrak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0171C41CF2606100667CC6 /* letrak.swift */; };
+		2B0171C71CF262D200667CC6 /* leao.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171C61CF262D200667CC6 /* leao.png */; };
+		2B0171C91CF2633100667CC6 /* letral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0171C81CF2633100667CC6 /* letral.swift */; };
+		2B0171CD1CF2639900667CC6 /* letralminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171CB1CF2639900667CC6 /* letralminuscula.wav */; };
+		2B0171D01CF2667700667CC6 /* letralmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171CE1CF2667700667CC6 /* letralmaiuscula.wav */; };
+		2B0171D31CF267D000667CC6 /* macaco.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171D21CF267D000667CC6 /* macaco.png */; };
+		2B0171D91CF2687600667CC6 /* letram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0171D81CF2687600667CC6 /* letram.swift */; };
+		2B0171DC1CF2696600667CC6 /* letrammaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171DA1CF2696600667CC6 /* letrammaiuscula.wav */; };
+		2B0171DD1CF2696600667CC6 /* letramminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0171DB1CF2696600667CC6 /* letramminuscula.wav */; };
+		2B03CED81C53075600F5E914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03CED71C53075600F5E914 /* AppDelegate.swift */; };
+		2B03CEDA1C53075600F5E914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03CED91C53075600F5E914 /* ViewController.swift */; };
+		2B03CEDD1C53075600F5E914 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B03CEDB1C53075600F5E914 /* Main.storyboard */; };
+		2B03CEE01C53075600F5E914 /* MVA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B03CEDE1C53075600F5E914 /* MVA.xcdatamodeld */; };
+		2B03CEE21C53075600F5E914 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B03CEE11C53075600F5E914 /* Assets.xcassets */; };
+		2B03FBC31CF6084D00C19201 /* letrat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B03FBC21CF6084D00C19201 /* letrat.swift */; };
+		2B03FBC61CF60A4C00C19201 /* letrasmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B03FBC41CF60A4C00C19201 /* letrasmaiuscula.wav */; };
+		2B03FBC71CF60A4C00C19201 /* letrasminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B03FBC51CF60A4C00C19201 /* letrasminuscula.wav */; };
+		2B07106E1CE92923006CC3CD /* nave.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B07106D1CE92923006CC3CD /* nave.png */; };
+		2B0E19251CFB4EE1002C7C64 /* letrabbaleia.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E190C1CFB4EE1002C7C64 /* letrabbaleia.wav */; };
+		2B0E19261CFB4EE1002C7C64 /* letraccachorro.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E190D1CFB4EE1002C7C64 /* letraccachorro.wav */; };
+		2B0E19271CFB4EE1002C7C64 /* letraddromedario.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E190E1CFB4EE1002C7C64 /* letraddromedario.wav */; };
+		2B0E19281CFB4EE1002C7C64 /* letraeelefante.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E190F1CFB4EE1002C7C64 /* letraeelefante.wav */; };
+		2B0E19291CFB4EE1002C7C64 /* letraffoca.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E19101CFB4EE1002C7C64 /* letraffoca.wav */; };
+		2B0E192A1CFB4EE1002C7C64 /* letraggato.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E19111CFB4EE1002C7C64 /* letraggato.wav */; };
+		2B0E192B1CFB4EE1002C7C64 /* letrahhipopotamo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E19121CFB4EE1002C7C64 /* letrahhipopotamo.wav */; };
+		2B0E192C1CFB4EE1002C7C64 /* letraiiguana.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E19131CFB4EE1002C7C64 /* letraiiguana.wav */; };
+		2B0E192D1CFB4EE1002C7C64 /* letrajjacare.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E19141CFB4EE1002C7C64 /* letrajjacare.wav */; };
+		2B0E192E1CFB4EE1002C7C64 /* letrakkiwi.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E19151CFB4EE1002C7C64 /* letrakkiwi.wav */; };
+		2B0E192F1CFB4EE1002C7C64 /* letralleao.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E19161CFB4EE1002C7C64 /* letralleao.wav */; };
+		2B0E19301CFB4EE1002C7C64 /* letrammacaco.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E19171CFB4EE1002C7C64 /* letrammacaco.wav */; };
+		2B0E19311CFB4EE1002C7C64 /* letrannarval.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E19181CFB4EE1002C7C64 /* letrannarval.wav */; };
+		2B0E19321CFB4EE1002C7C64 /* letraoovelha.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E19191CFB4EE1002C7C64 /* letraoovelha.wav */; };
+		2B0E19331CFB4EE1002C7C64 /* letrapporco.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E191A1CFB4EE1002C7C64 /* letrapporco.wav */; };
+		2B0E19341CFB4EE1002C7C64 /* letraqquati.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E191B1CFB4EE1002C7C64 /* letraqquati.wav */; };
+		2B0E19351CFB4EE1002C7C64 /* letrarrinoceronte.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E191C1CFB4EE1002C7C64 /* letrarrinoceronte.wav */; };
+		2B0E19361CFB4EE1002C7C64 /* letrassapo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E191D1CFB4EE1002C7C64 /* letrassapo.wav */; };
+		2B0E19371CFB4EE1002C7C64 /* letrattartaruga.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E191E1CFB4EE1002C7C64 /* letrattartaruga.wav */; };
+		2B0E19381CFB4EE1002C7C64 /* letrauurso.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E191F1CFB4EE1002C7C64 /* letrauurso.wav */; };
+		2B0E19391CFB4EE1002C7C64 /* letravvaca.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E19201CFB4EE1002C7C64 /* letravvaca.wav */; };
+		2B0E193A1CFB4EE1002C7C64 /* letrawwallaby.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E19211CFB4EE1002C7C64 /* letrawwallaby.wav */; };
+		2B0E193B1CFB4EE1002C7C64 /* letraxximango.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E19221CFB4EE1002C7C64 /* letraxximango.wav */; };
+		2B0E193C1CFB4EE1002C7C64 /* letrayyak.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E19231CFB4EE1002C7C64 /* letrayyak.wav */; };
+		2B0E193D1CFB4EE1002C7C64 /* letrazzebra.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E19241CFB4EE1002C7C64 /* letrazzebra.wav */; };
+		2B0E7DDD1C7377B50080B04F /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0E7DDC1C7377B50080B04F /* avatar.png */; };
+		2B1082D01CCFF91000176CBD /* contatenos.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1082CF1CCFF91000176CBD /* contatenos.png */; };
+		2B1082D21CD00FEF00176CBD /* contatenos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1082D11CD00FEF00176CBD /* contatenos.swift */; };
+		2B1082D41CD012B600176CBD /* btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1082D31CD012B600176CBD /* btn.png */; };
+		2B11C8001CD1561F0065CADF /* mais.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B11C7FF1CD1561F0065CADF /* mais.png */; };
+		2B1504D11CF61F7C00C9B4E1 /* letray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1504D01CF61F7C00C9B4E1 /* letray.swift */; };
+		2B1504D31CF6200000C9B4E1 /* letraz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1504D21CF6200000C9B4E1 /* letraz.swift */; };
+		2B16E7811C74CD26007BE5B5 /* mva.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B16E77F1C74CD26007BE5B5 /* mva.png */; };
+		2B16E7821C74CD26007BE5B5 /* mva1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B16E7801C74CD26007BE5B5 /* mva1.png */; };
+		2B184BF51C7534C000A37B7D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B184BED1C7534C000A37B7D /* 1.png */; };
+		2B184BF71C7534C000A37B7D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B184BEF1C7534C000A37B7D /* 2.png */; };
+		2B184BF81C7534C000A37B7D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B184BF01C7534C000A37B7D /* 3.png */; };
+		2B184BF91C7534C000A37B7D /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B184BF11C7534C000A37B7D /* 4.png */; };
+		2B184BFA1C7534C000A37B7D /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B184BF21C7534C000A37B7D /* 5.png */; };
+		2B184BFB1C7534C000A37B7D /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B184BF31C7534C000A37B7D /* 6.png */; };
+		2B184BFC1C7534C000A37B7D /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B184BF41C7534C000A37B7D /* 7.png */; };
+		2B184BFE1C7538AD00A37B7D /* nome.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B184BFD1C7538AD00A37B7D /* nome.png */; };
+		2B1862C81CE8E1CC00A0E6EA /* AdditionalNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1862C01CE8E1CC00A0E6EA /* AdditionalNodes.swift */; };
+		2B1862C91CE8E1CC00A0E6EA /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1862C11CE8E1CC00A0E6EA /* Car.swift */; };
+		2B1862CA1CE8E1CC00A0E6EA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1862C21CE8E1CC00A0E6EA /* Constants.swift */; };
+		2B1862CB1CE8E1CC00A0E6EA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1862C31CE8E1CC00A0E6EA /* Extensions.swift */; };
+		2B1862CC1CE8E1CC00A0E6EA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2B1862C41CE8E1CC00A0E6EA /* GameScene.sks */; };
+		2B1862CD1CE8E1CC00A0E6EA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1862C51CE8E1CC00A0E6EA /* GameScene.swift */; };
+		2B1862CE1CE8E1CC00A0E6EA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1862C61CE8E1CC00A0E6EA /* GameViewController.swift */; };
+		2B1862CF1CE8E1CC00A0E6EA /* RoadBeziers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1862C71CE8E1CC00A0E6EA /* RoadBeziers.swift */; };
+		2B1862DE1CE8E51600A0E6EA /* darkExplosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B1862D11CE8E51600A0E6EA /* darkExplosion.wav */; };
+		2B1862DF1CE8E51600A0E6EA /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B1862D21CE8E51600A0E6EA /* explosion.wav */; };
+		2B1862E01CE8E51600A0E6EA /* GameScenenave.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2B1862D31CE8E51600A0E6EA /* GameScenenave.sks */; };
+		2B1862E11CE8E51600A0E6EA /* GameScenenave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1862D41CE8E51600A0E6EA /* GameScenenave.swift */; };
+		2B1862E21CE8E51600A0E6EA /* GameViewControllernave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1862D51CE8E51600A0E6EA /* GameViewControllernave.swift */; };
+		2B1862E31CE8E51600A0E6EA /* HUDNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1862D61CE8E51600A0E6EA /* HUDNode.swift */; };
+		2B1862E41CE8E51600A0E6EA /* laserShot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B1862D71CE8E51600A0E6EA /* laserShot.wav */; };
+		2B1862E51CE8E51600A0E6EA /* ObstacleExplode.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2B1862D81CE8E51600A0E6EA /* ObstacleExplode.sks */; };
+		2B1862E61CE8E51600A0E6EA /* ShipExplode.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2B1862D91CE8E51600A0E6EA /* ShipExplode.sks */; };
+		2B1862E71CE8E51600A0E6EA /* SKEmitterNodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1862DA1CE8E51600A0E6EA /* SKEmitterNodeExtension.swift */; };
+		2B1862E81CE8E51600A0E6EA /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1862DB1CE8E51600A0E6EA /* spark.png */; };
+		2B1862E91CE8E51600A0E6EA /* StarField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1862DC1CE8E51600A0E6EA /* StarField.swift */; };
+		2B1862EA1CE8E51600A0E6EA /* Thrust.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2B1862DD1CE8E51600A0E6EA /* Thrust.sks */; };
+		2B20828B1CF60E5B00484894 /* letratmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082891CF60E5B00484894 /* letratmaiuscula.wav */; };
+		2B20828C1CF60E5B00484894 /* letratminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B20828A1CF60E5B00484894 /* letratminuscula.wav */; };
+		2B20828E1CF60E8D00484894 /* letrau.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B20828D1CF60E8D00484894 /* letrau.swift */; };
+		2B2082941CF6109900484894 /* urso.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082931CF6109900484894 /* urso.png */; };
+		2B2082971CF6114700484894 /* letraumaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082951CF6114700484894 /* letraumaiuscula.wav */; };
+		2B2082981CF6114700484894 /* letrauminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082961CF6114700484894 /* letrauminuscula.wav */; };
+		2B20829B1CF612DD00484894 /* letravmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082991CF612DD00484894 /* letravmaiuscula.wav */; };
+		2B20829C1CF612DD00484894 /* letravminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B20829A1CF612DD00484894 /* letravminuscula.wav */; };
+		2B20829E1CF6130900484894 /* vaca.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B20829D1CF6130900484894 /* vaca.png */; };
+		2B2082A01CF6136900484894 /* letrav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B20829F1CF6136900484894 /* letrav.swift */; };
+		2B2082A21CF616B900484894 /* wallaby.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082A11CF616B900484894 /* wallaby.png */; };
+		2B2082A41CF6179200484894 /* letraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2082A31CF6179200484894 /* letraw.swift */; };
+		2B2082A71CF618C700484894 /* letrawmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082A51CF618C700484894 /* letrawmaiuscula.wav */; };
+		2B2082A81CF618C700484894 /* letrawminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082A61CF618C700484894 /* letrawminuscula.wav */; };
+		2B2082AC1CF61CD100484894 /* ximango.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082AB1CF61CD100484894 /* ximango.png */; };
+		2B2082AE1CF61D2E00484894 /* letrax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2082AD1CF61D2E00484894 /* letrax.swift */; };
+		2B2082B11CF61DC200484894 /* letraxmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082AF1CF61DC200484894 /* letraxmaiuscula.wav */; };
+		2B2082B21CF61DC200484894 /* letraxminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082B01CF61DC200484894 /* letraxminuscula.wav */; };
+		2B2082B51CF61E2400484894 /* letraymaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082B31CF61E2400484894 /* letraymaiuscula.wav */; };
+		2B2082B61CF61E2400484894 /* letrayminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082B41CF61E2400484894 /* letrayminuscula.wav */; };
+		2B2082B91CF61E2B00484894 /* letrazmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082B71CF61E2B00484894 /* letrazmaiuscula.wav */; };
+		2B2082BA1CF61E2B00484894 /* letrazminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082B81CF61E2B00484894 /* letrazminuscula.wav */; };
+		2B2082BD1CF61ECC00484894 /* yak.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082BB1CF61ECC00484894 /* yak.png */; };
+		2B2082BE1CF61ECC00484894 /* zebra.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B2082BC1CF61ECC00484894 /* zebra.png */; };
+		2B2E6D631C583DE200FB19E5 /* bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B2E6D621C583DE200FB19E5 /* bar.jpg */; };
+		2B4D55E71CF36B790044C0E8 /* dromedario.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D55E61CF36B790044C0E8 /* dromedario.png */; };
+		2B4D55E91CF36E340044C0E8 /* kiwi.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4D55E81CF36E340044C0E8 /* kiwi.png */; };
+		2B56044B1CE941280097F487 /* Array2Dinto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5604401CE941280097F487 /* Array2Dinto.swift */; };
+		2B56044C1CE941280097F487 /* cellNodeinto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5604411CE941280097F487 /* cellNodeinto.swift */; };
+		2B56044D1CE941280097F487 /* DepthFirstSearchinto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5604421CE941280097F487 /* DepthFirstSearchinto.swift */; };
+		2B56044E1CE941280097F487 /* GameSceneinto.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2B5604431CE941280097F487 /* GameSceneinto.sks */; };
+		2B56044F1CE941280097F487 /* GameSceneinto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5604441CE941280097F487 /* GameSceneinto.swift */; };
+		2B5604501CE941280097F487 /* GameViewControllerinto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5604451CE941280097F487 /* GameViewControllerinto.swift */; };
+		2B5604511CE941280097F487 /* HealthBarinto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5604461CE941280097F487 /* HealthBarinto.swift */; };
+		2B5604521CE941280097F487 /* Heavitas.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B5604471CE941280097F487 /* Heavitas.ttf */; };
+		2B5604531CE941280097F487 /* Helperinto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5604481CE941280097F487 /* Helperinto.swift */; };
+		2B5604541CE941280097F487 /* Mazeinto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5604491CE941280097F487 /* Mazeinto.swift */; };
+		2B5604551CE941280097F487 /* Propertiesinto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B56044A1CE941280097F487 /* Propertiesinto.swift */; };
+		2B5604571CE9457F0097F487 /* labirinto.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B5604561CE9457F0097F487 /* labirinto.png */; };
+		2B564F721C874E09007FE6C7 /* touchid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B564F711C874E09007FE6C7 /* touchid.jpg */; };
+		2B564F741C875117007FE6C7 /* som.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B564F731C875117007FE6C7 /* som.png */; };
+		2B564F761C875501007FE6C7 /* game.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B564F751C875501007FE6C7 /* game.jpg */; };
+		2B792E001C596BE9003D1137 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B792DFF1C596BE9003D1137 /* bg.png */; };
+		2B7AAC511CEFE26F003EBED3 /* video.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7AAC501CEFE26F003EBED3 /* video.png */; };
+		2B7AAC531CEFE42B003EBED3 /* casa.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7AAC521CEFE42B003EBED3 /* casa.png */; };
+		2B8373841C7C9E90009D8CCD /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8373801C7C9E90009D8CCD /* back.png */; };
+		2B8373851C7C9E90009D8CCD /* fundo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8373811C7C9E90009D8CCD /* fundo.png */; };
+		2B8373861C7C9E90009D8CCD /* info1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8373821C7C9E90009D8CCD /* info1.png */; };
+		2B8373871C7C9E90009D8CCD /* info2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B8373831C7C9E90009D8CCD /* info2.png */; };
+		2B861DC11C9AD2D500218569 /* jogos.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B861DC01C9AD2D500218569 /* jogos.png */; };
+		2B95ED1E1CF5D3A700BAA948 /* sapo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B95ED1D1CF5D3A700BAA948 /* sapo.png */; };
+		2B95ED201CF5D45600BAA948 /* letras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B95ED1F1CF5D45600BAA948 /* letras.swift */; };
+		2B95ED221CF5DC0200BAA948 /* tartaruga.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B95ED211CF5DC0200BAA948 /* tartaruga.png */; };
+		2B997B451CFA62770091D590 /* letranmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B997B431CFA62770091D590 /* letranmaiuscula.wav */; };
+		2B997B461CFA62770091D590 /* letranminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2B997B441CFA62770091D590 /* letranminuscula.wav */; };
+		2BA30AC91CEEAE0800A83958 /* letraa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BA30AC81CEEAE0800A83958 /* letraa.swift */; };
+		2BC4BA2B1C762955008783DF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC4BA2A1C762955008783DF /* AudioToolbox.framework */; };
+		2BC4BA301C762A86008783DF /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4BA2F1C762A86008783DF /* game.png */; };
+		2BC4BA321C7633D5008783DF /* game1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4BA311C7633D5008783DF /* game1.png */; };
+		2BC4BA341C7634AE008783DF /* livro.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4BA331C7634AE008783DF /* livro.png */; };
+		2BC4BA361C764A52008783DF /* livro1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC4BA351C764A52008783DF /* livro1.png */; };
+		2BC97DCF1C779D040076942E /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BC97DCE1C779D040076942E /* info.png */; };
+		2BC97DD11C77B7720076942E /* info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC97DD01C77B7720076942E /* info.swift */; };
+		2BD24B291CEFEB4800164419 /* avestruz.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD24B281CEFEB4800164419 /* avestruz.png */; };
+		2BD45C4A1CF4D0DD00BA648F /* letran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD45C491CF4D0DD00BA648F /* letran.swift */; };
+		2BD45C501CF4D4EF00BA648F /* narval.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD45C4F1CF4D4EF00BA648F /* narval.png */; };
+		2BD45C521CF4D73F00BA648F /* ovelha.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD45C511CF4D73F00BA648F /* ovelha.png */; };
+		2BD45C551CF4D77B00BA648F /* letraomaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2BD45C531CF4D77B00BA648F /* letraomaiuscula.wav */; };
+		2BD45C561CF4D77B00BA648F /* letraominuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2BD45C541CF4D77B00BA648F /* letraominuscula.wav */; };
+		2BD45C581CF4D7AF00BA648F /* letrao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD45C571CF4D7AF00BA648F /* letrao.swift */; };
+		2BD45C5A1CF4DAFF00BA648F /* porco.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD45C591CF4DAFF00BA648F /* porco.png */; };
+		2BD45C5C1CF4DB6D00BA648F /* letrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD45C5B1CF4DB6D00BA648F /* letrap.swift */; };
+		2BD45C5F1CF4DC5100BA648F /* letrapmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2BD45C5D1CF4DC5100BA648F /* letrapmaiuscula.wav */; };
+		2BD45C601CF4DC5100BA648F /* letrapminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2BD45C5E1CF4DC5100BA648F /* letrapminuscula.wav */; };
+		2BD45C621CF4DDDE00BA648F /* quati.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD45C611CF4DDDE00BA648F /* quati.png */; };
+		2BD45C641CF4DE0600BA648F /* letraq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD45C631CF4DE0600BA648F /* letraq.swift */; };
+		2BD45C671CF4E0CC00BA648F /* letraqmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2BD45C651CF4E0CC00BA648F /* letraqmaiuscula.wav */; };
+		2BD45C681CF4E0CC00BA648F /* letraqminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2BD45C661CF4E0CC00BA648F /* letraqminuscula.wav */; };
+		2BD45C6A1CF4E10A00BA648F /* rinoceronte.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD45C691CF4E10A00BA648F /* rinoceronte.png */; };
+		2BD45C6C1CF4FDD100BA648F /* letrar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD45C6B1CF4FDD100BA648F /* letrar.swift */; };
+		2BD45C6F1CF5003100BA648F /* letrarmaiuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2BD45C6D1CF5003100BA648F /* letrarmaiuscula.wav */; };
+		2BD45C701CF5003100BA648F /* letrarminuscula.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2BD45C6E1CF5003100BA648F /* letrarminuscula.wav */; };
+		2BDCBC121CFBBB85001DBA18 /* letragexercicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCBC111CFBBB85001DBA18 /* letragexercicio.swift */; };
+		2BDCBC151CFBC152001DBA18 /* animalletrag.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2BDCBC131CFBC152001DBA18 /* animalletrag.wav */; };
+		2BDCBC161CFBC152001DBA18 /* gato.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2BDCBC141CFBC152001DBA18 /* gato.wav */; };
+		2BF1D75D1C7F816600F7C075 /* ajustes.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF1D75C1C7F816600F7C075 /* ajustes.png */; };
+		2BF1D75F1C7F82F000F7C075 /* sobre.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF1D75E1C7F82F000F7C075 /* sobre.png */; };
+		2BF1D7651C7F985500F7C075 /* fatec.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF1D7641C7F985500F7C075 /* fatec.png */; };
+		2BF1D7671C7F99C200F7C075 /* ajuda.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF1D7661C7F99C200F7C075 /* ajuda.png */; };
+		2BF2443F1CEA30A200497822 /* transitar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF2443E1CEA30A200497822 /* transitar.png */; };
+		2BF244411CEA332200497822 /* Celextir.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF244401CEA332200497822 /* Celextir.png */; };
+		2BF244431CEA364F00497822 /* escurin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF244421CEA364F00497822 /* escurin.png */; };
+		2BF30C161CF1EE67003CF70E /* atras.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF30C141CF1EE67003CF70E /* atras.png */; };
+		2BF30C171CF1EE67003CF70E /* frente.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF30C151CF1EE67003CF70E /* frente.png */; };
+		2BF30C191CF1EF18003CF70E /* fundo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BF30C181CF1EF18003CF70E /* fundo.jpg */; };
+		2BF9447D1CE424E80041DD45 /* transito.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BF9447C1CE424E80041DD45 /* transito.png */; };
+		2BFC4F6D1C7271BC0054990D /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFC4F6C1C7271BC0054990D /* menu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B0171231CF1F97100667CC6 /* letraaavestruz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraaavestruz.wav; path = MVA/audio/letraa/letraaavestruz.wav; sourceTree = "<group>"; };
+		2B0171241CF1F97100667CC6 /* letraamaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraamaiuscula.wav; path = MVA/audio/letraa/letraamaiuscula.wav; sourceTree = "<group>"; };
+		2B0171251CF1F97100667CC6 /* letraaminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraaminuscula.wav; path = MVA/audio/letraa/letraaminuscula.wav; sourceTree = "<group>"; };
+		2B0171701CF234EF00667CC6 /* intro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = intro.wav; sourceTree = "<group>"; };
+		2B0171741CF23AD300667CC6 /* letrab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letrab.swift; sourceTree = "<group>"; };
+		2B0171761CF23D0F00667CC6 /* letrabmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrabmaiuscula.wav; path = MVA/audio/letrab/letrabmaiuscula.wav; sourceTree = "<group>"; };
+		2B0171771CF23D0F00667CC6 /* letrabminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrabminuscula.wav; path = MVA/audio/letrab/letrabminuscula.wav; sourceTree = "<group>"; };
+		2B01717A1CF242DB00667CC6 /* baleia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baleia.png; path = MVA/img/letras/baleia.png; sourceTree = "<group>"; };
+		2B01717C1CF2443F00667CC6 /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cachorro.png; path = MVA/img/letras/cachorro.png; sourceTree = "<group>"; };
+		2B01717E1CF2447800667CC6 /* letrac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letrac.swift; sourceTree = "<group>"; };
+		2B0171801CF244D300667CC6 /* letracmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letracmaiuscula.wav; path = MVA/audio/letrac/letracmaiuscula.wav; sourceTree = "<group>"; };
+		2B0171811CF244D300667CC6 /* letracminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letracminuscula.wav; path = MVA/audio/letrac/letracminuscula.wav; sourceTree = "<group>"; };
+		2B0171841CF246F400667CC6 /* letrad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letrad.swift; sourceTree = "<group>"; };
+		2B0171861CF247CA00667CC6 /* letradmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letradmaiuscula.wav; path = MVA/audio/letrad/letradmaiuscula.wav; sourceTree = "<group>"; };
+		2B0171871CF247CA00667CC6 /* letradminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letradminuscula.wav; path = MVA/audio/letrad/letradminuscula.wav; sourceTree = "<group>"; };
+		2B01718A1CF2488300667CC6 /* letrae.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letrae.swift; sourceTree = "<group>"; };
+		2B01718C1CF248EA00667CC6 /* elefante.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = elefante.png; path = MVA/img/letras/elefante.png; sourceTree = "<group>"; };
+		2B01718E1CF2496200667CC6 /* letraemaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraemaiuscula.wav; path = MVA/audio/letrae/letraemaiuscula.wav; sourceTree = "<group>"; };
+		2B01718F1CF2496200667CC6 /* letraeminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraeminuscula.wav; path = MVA/audio/letrae/letraeminuscula.wav; sourceTree = "<group>"; };
+		2B0171921CF24B2F00667CC6 /* foca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foca.png; path = MVA/img/letras/foca.png; sourceTree = "<group>"; };
+		2B0171941CF24B7B00667CC6 /* letraf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letraf.swift; sourceTree = "<group>"; };
+		2B0171961CF24C0700667CC6 /* letrafmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrafmaiuscula.wav; path = MVA/audio/letraf/letrafmaiuscula.wav; sourceTree = "<group>"; };
+		2B0171971CF24C0700667CC6 /* letrafminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrafminuscula.wav; path = MVA/audio/letraf/letrafminuscula.wav; sourceTree = "<group>"; };
+		2B01719A1CF24DD700667CC6 /* gato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gato.png; path = MVA/img/letras/gato.png; sourceTree = "<group>"; };
+		2B01719C1CF24E3700667CC6 /* letrag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letrag.swift; sourceTree = "<group>"; };
+		2B01719E1CF24F1000667CC6 /* letragmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letragmaiuscula.wav; path = MVA/audio/letrag/letragmaiuscula.wav; sourceTree = "<group>"; };
+		2B01719F1CF24F1000667CC6 /* letragminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letragminuscula.wav; path = MVA/audio/letrag/letragminuscula.wav; sourceTree = "<group>"; };
+		2B0171A21CF2507C00667CC6 /* hipopotamo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hipopotamo.png; path = MVA/img/letras/hipopotamo.png; sourceTree = "<group>"; };
+		2B0171A41CF2510B00667CC6 /* letrah.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letrah.swift; sourceTree = "<group>"; };
+		2B0171A61CF2515300667CC6 /* letrahmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrahmaiuscula.wav; path = MVA/audio/letrah/letrahmaiuscula.wav; sourceTree = "<group>"; };
+		2B0171A71CF2515300667CC6 /* letrahminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrahminuscula.wav; path = MVA/audio/letrah/letrahminuscula.wav; sourceTree = "<group>"; };
+		2B0171AA1CF2556B00667CC6 /* iguana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iguana.png; path = MVA/img/letras/iguana.png; sourceTree = "<group>"; };
+		2B0171AC1CF255F900667CC6 /* letrai.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letrai.swift; sourceTree = "<group>"; };
+		2B0171AE1CF2581D00667CC6 /* letraimaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraimaiuscula.wav; path = MVA/audio/letrai/letraimaiuscula.wav; sourceTree = "<group>"; };
+		2B0171AF1CF2581D00667CC6 /* letraiminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraiminuscula.wav; path = MVA/audio/letrai/letraiminuscula.wav; sourceTree = "<group>"; };
+		2B0171B21CF2593900667CC6 /* letraimaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraimaiuscula.wav; path = MVA/audio/letrai/letraimaiuscula.wav; sourceTree = "<group>"; };
+		2B0171B31CF2593900667CC6 /* letraiminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraiminuscula.wav; path = MVA/audio/letrai/letraiminuscula.wav; sourceTree = "<group>"; };
+		2B0171B81CF25BF700667CC6 /* letraj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letraj.swift; sourceTree = "<group>"; };
+		2B0171BA1CF25C9200667CC6 /* letrajmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrajmaiuscula.wav; path = MVA/audio/letraj/letrajmaiuscula.wav; sourceTree = "<group>"; };
+		2B0171BB1CF25C9200667CC6 /* letrajminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrajminuscula.wav; path = MVA/audio/letraj/letrajminuscula.wav; sourceTree = "<group>"; };
+		2B0171BE1CF25F6D00667CC6 /* letrakmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrakmaiuscula.wav; path = MVA/audio/letrak/letrakmaiuscula.wav; sourceTree = "<group>"; };
+		2B0171BF1CF25F6D00667CC6 /* letrakminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrakminuscula.wav; path = MVA/audio/letrak/letrakminuscula.wav; sourceTree = "<group>"; };
+		2B0171C21CF25FBA00667CC6 /* jacare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jacare.png; path = MVA/img/letras/jacare.png; sourceTree = "<group>"; };
+		2B0171C41CF2606100667CC6 /* letrak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letrak.swift; sourceTree = "<group>"; };
+		2B0171C61CF262D200667CC6 /* leao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = leao.png; path = MVA/img/letras/leao.png; sourceTree = "<group>"; };
+		2B0171C81CF2633100667CC6 /* letral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letral.swift; sourceTree = "<group>"; };
+		2B0171CA1CF2639900667CC6 /* letralmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letralmaiuscula.wav; path = MVA/audio/letral/letralmaiuscula.wav; sourceTree = "<group>"; };
+		2B0171CB1CF2639900667CC6 /* letralminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letralminuscula.wav; path = MVA/audio/letral/letralminuscula.wav; sourceTree = "<group>"; };
+		2B0171CE1CF2667700667CC6 /* letralmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letralmaiuscula.wav; path = MVA/audio/letral/letralmaiuscula.wav; sourceTree = "<group>"; };
+		2B0171CF1CF2667700667CC6 /* letralminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letralminuscula.wav; path = MVA/audio/letral/letralminuscula.wav; sourceTree = "<group>"; };
+		2B0171D21CF267D000667CC6 /* macaco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = macaco.png; path = MVA/img/letras/macaco.png; sourceTree = "<group>"; };
+		2B0171D41CF2684800667CC6 /* letrammaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrammaiuscula.wav; path = MVA/audio/letram/letrammaiuscula.wav; sourceTree = "<group>"; };
+		2B0171D51CF2684800667CC6 /* letramminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letramminuscula.wav; path = MVA/audio/letram/letramminuscula.wav; sourceTree = "<group>"; };
+		2B0171D81CF2687600667CC6 /* letram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letram.swift; sourceTree = "<group>"; };
+		2B0171DA1CF2696600667CC6 /* letrammaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrammaiuscula.wav; path = MVA/audio/letram/letrammaiuscula.wav; sourceTree = "<group>"; };
+		2B0171DB1CF2696600667CC6 /* letramminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letramminuscula.wav; path = MVA/audio/letram/letramminuscula.wav; sourceTree = "<group>"; };
+		2B03CED41C53075600F5E914 /* MVA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B03CED71C53075600F5E914 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B03CED91C53075600F5E914 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B03CEDC1C53075600F5E914 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B03CEDF1C53075600F5E914 /* MVA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MVA.xcdatamodel; sourceTree = "<group>"; };
+		2B03CEE11C53075600F5E914 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B03CEE61C53075600F5E914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B03FBC21CF6084D00C19201 /* letrat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letrat.swift; sourceTree = "<group>"; };
+		2B03FBC41CF60A4C00C19201 /* letrasmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrasmaiuscula.wav; path = MVA/audio/letras/letrasmaiuscula.wav; sourceTree = "<group>"; };
+		2B03FBC51CF60A4C00C19201 /* letrasminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrasminuscula.wav; path = MVA/audio/letras/letrasminuscula.wav; sourceTree = "<group>"; };
+		2B07106D1CE92923006CC3CD /* nave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nave.png; path = img/nave/nave.png; sourceTree = "<group>"; };
+		2B0E190C1CFB4EE1002C7C64 /* letrabbaleia.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrabbaleia.wav; path = MVA/audio/animais/letrabbaleia.wav; sourceTree = "<group>"; };
+		2B0E190D1CFB4EE1002C7C64 /* letraccachorro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraccachorro.wav; path = MVA/audio/animais/letraccachorro.wav; sourceTree = "<group>"; };
+		2B0E190E1CFB4EE1002C7C64 /* letraddromedario.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraddromedario.wav; path = MVA/audio/animais/letraddromedario.wav; sourceTree = "<group>"; };
+		2B0E190F1CFB4EE1002C7C64 /* letraeelefante.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraeelefante.wav; path = MVA/audio/animais/letraeelefante.wav; sourceTree = "<group>"; };
+		2B0E19101CFB4EE1002C7C64 /* letraffoca.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraffoca.wav; path = MVA/audio/animais/letraffoca.wav; sourceTree = "<group>"; };
+		2B0E19111CFB4EE1002C7C64 /* letraggato.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraggato.wav; path = MVA/audio/animais/letraggato.wav; sourceTree = "<group>"; };
+		2B0E19121CFB4EE1002C7C64 /* letrahhipopotamo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrahhipopotamo.wav; path = MVA/audio/animais/letrahhipopotamo.wav; sourceTree = "<group>"; };
+		2B0E19131CFB4EE1002C7C64 /* letraiiguana.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraiiguana.wav; path = MVA/audio/animais/letraiiguana.wav; sourceTree = "<group>"; };
+		2B0E19141CFB4EE1002C7C64 /* letrajjacare.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrajjacare.wav; path = MVA/audio/animais/letrajjacare.wav; sourceTree = "<group>"; };
+		2B0E19151CFB4EE1002C7C64 /* letrakkiwi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrakkiwi.wav; path = MVA/audio/animais/letrakkiwi.wav; sourceTree = "<group>"; };
+		2B0E19161CFB4EE1002C7C64 /* letralleao.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letralleao.wav; path = MVA/audio/animais/letralleao.wav; sourceTree = "<group>"; };
+		2B0E19171CFB4EE1002C7C64 /* letrammacaco.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrammacaco.wav; path = MVA/audio/animais/letrammacaco.wav; sourceTree = "<group>"; };
+		2B0E19181CFB4EE1002C7C64 /* letrannarval.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrannarval.wav; path = MVA/audio/animais/letrannarval.wav; sourceTree = "<group>"; };
+		2B0E19191CFB4EE1002C7C64 /* letraoovelha.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraoovelha.wav; path = MVA/audio/animais/letraoovelha.wav; sourceTree = "<group>"; };
+		2B0E191A1CFB4EE1002C7C64 /* letrapporco.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrapporco.wav; path = MVA/audio/animais/letrapporco.wav; sourceTree = "<group>"; };
+		2B0E191B1CFB4EE1002C7C64 /* letraqquati.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraqquati.wav; path = MVA/audio/animais/letraqquati.wav; sourceTree = "<group>"; };
+		2B0E191C1CFB4EE1002C7C64 /* letrarrinoceronte.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrarrinoceronte.wav; path = MVA/audio/animais/letrarrinoceronte.wav; sourceTree = "<group>"; };
+		2B0E191D1CFB4EE1002C7C64 /* letrassapo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrassapo.wav; path = MVA/audio/animais/letrassapo.wav; sourceTree = "<group>"; };
+		2B0E191E1CFB4EE1002C7C64 /* letrattartaruga.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrattartaruga.wav; path = MVA/audio/animais/letrattartaruga.wav; sourceTree = "<group>"; };
+		2B0E191F1CFB4EE1002C7C64 /* letrauurso.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrauurso.wav; path = MVA/audio/animais/letrauurso.wav; sourceTree = "<group>"; };
+		2B0E19201CFB4EE1002C7C64 /* letravvaca.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letravvaca.wav; path = MVA/audio/animais/letravvaca.wav; sourceTree = "<group>"; };
+		2B0E19211CFB4EE1002C7C64 /* letrawwallaby.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrawwallaby.wav; path = MVA/audio/animais/letrawwallaby.wav; sourceTree = "<group>"; };
+		2B0E19221CFB4EE1002C7C64 /* letraxximango.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraxximango.wav; path = MVA/audio/animais/letraxximango.wav; sourceTree = "<group>"; };
+		2B0E19231CFB4EE1002C7C64 /* letrayyak.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrayyak.wav; path = MVA/audio/animais/letrayyak.wav; sourceTree = "<group>"; };
+		2B0E19241CFB4EE1002C7C64 /* letrazzebra.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrazzebra.wav; path = MVA/audio/animais/letrazzebra.wav; sourceTree = "<group>"; };
+		2B0E7DDC1C7377B50080B04F /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = avatar.png; path = img/telainicio/avatar.png; sourceTree = "<group>"; };
+		2B1082CF1CCFF91000176CBD /* contatenos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = contatenos.png; path = img/telacontatenos/contatenos.png; sourceTree = "<group>"; };
+		2B1082D11CD00FEF00176CBD /* contatenos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contatenos.swift; sourceTree = "<group>"; };
+		2B1082D31CD012B600176CBD /* btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn.png; path = img/telacontatenos/btn.png; sourceTree = "<group>"; };
+		2B11C7FF1CD1561F0065CADF /* mais.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mais.png; path = img/telacontatenos/mais.png; sourceTree = "<group>"; };
+		2B1504D01CF61F7C00C9B4E1 /* letray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letray.swift; sourceTree = "<group>"; };
+		2B1504D21CF6200000C9B4E1 /* letraz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letraz.swift; sourceTree = "<group>"; };
+		2B16E77F1C74CD26007BE5B5 /* mva.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mva.png; path = img/telainicio/mva.png; sourceTree = "<group>"; };
+		2B16E7801C74CD26007BE5B5 /* mva1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mva1.png; path = img/telainicio/mva1.png; sourceTree = "<group>"; };
+		2B184BED1C7534C000A37B7D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = img/Introducao/1.png; sourceTree = "<group>"; };
+		2B184BEF1C7534C000A37B7D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = img/Introducao/2.png; sourceTree = "<group>"; };
+		2B184BF01C7534C000A37B7D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = img/Introducao/3.png; sourceTree = "<group>"; };
+		2B184BF11C7534C000A37B7D /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = img/Introducao/4.png; sourceTree = "<group>"; };
+		2B184BF21C7534C000A37B7D /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = img/Introducao/5.png; sourceTree = "<group>"; };
+		2B184BF31C7534C000A37B7D /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6.png; path = img/Introducao/6.png; sourceTree = "<group>"; };
+		2B184BF41C7534C000A37B7D /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7.png; path = img/Introducao/7.png; sourceTree = "<group>"; };
+		2B184BFD1C7538AD00A37B7D /* nome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nome.png; path = img/telainicio/nome.png; sourceTree = "<group>"; };
+		2B1862C01CE8E1CC00A0E6EA /* AdditionalNodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AdditionalNodes.swift; path = CARRO/AdditionalNodes.swift; sourceTree = "<group>"; };
+		2B1862C11CE8E1CC00A0E6EA /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Car.swift; path = CARRO/Car.swift; sourceTree = "<group>"; };
+		2B1862C21CE8E1CC00A0E6EA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = CARRO/Constants.swift; sourceTree = "<group>"; };
+		2B1862C31CE8E1CC00A0E6EA /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = CARRO/Extensions.swift; sourceTree = "<group>"; };
+		2B1862C41CE8E1CC00A0E6EA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScene.sks; path = CARRO/GameScene.sks; sourceTree = "<group>"; };
+		2B1862C51CE8E1CC00A0E6EA /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = CARRO/GameScene.swift; sourceTree = "<group>"; };
+		2B1862C61CE8E1CC00A0E6EA /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = CARRO/GameViewController.swift; sourceTree = "<group>"; };
+		2B1862C71CE8E1CC00A0E6EA /* RoadBeziers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoadBeziers.swift; path = CARRO/RoadBeziers.swift; sourceTree = "<group>"; };
+		2B1862D11CE8E51600A0E6EA /* darkExplosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = darkExplosion.wav; path = NAVE/darkExplosion.wav; sourceTree = "<group>"; };
+		2B1862D21CE8E51600A0E6EA /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = explosion.wav; path = NAVE/explosion.wav; sourceTree = "<group>"; };
+		2B1862D31CE8E51600A0E6EA /* GameScenenave.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameScenenave.sks; path = NAVE/GameScenenave.sks; sourceTree = "<group>"; };
+		2B1862D41CE8E51600A0E6EA /* GameScenenave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScenenave.swift; path = NAVE/GameScenenave.swift; sourceTree = "<group>"; };
+		2B1862D51CE8E51600A0E6EA /* GameViewControllernave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewControllernave.swift; path = NAVE/GameViewControllernave.swift; sourceTree = "<group>"; };
+		2B1862D61CE8E51600A0E6EA /* HUDNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HUDNode.swift; path = NAVE/HUDNode.swift; sourceTree = "<group>"; };
+		2B1862D71CE8E51600A0E6EA /* laserShot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = laserShot.wav; path = NAVE/laserShot.wav; sourceTree = "<group>"; };
+		2B1862D81CE8E51600A0E6EA /* ObstacleExplode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = ObstacleExplode.sks; path = NAVE/ObstacleExplode.sks; sourceTree = "<group>"; };
+		2B1862D91CE8E51600A0E6EA /* ShipExplode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = ShipExplode.sks; path = NAVE/ShipExplode.sks; sourceTree = "<group>"; };
+		2B1862DA1CE8E51600A0E6EA /* SKEmitterNodeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKEmitterNodeExtension.swift; path = NAVE/SKEmitterNodeExtension.swift; sourceTree = "<group>"; };
+		2B1862DB1CE8E51600A0E6EA /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = NAVE/spark.png; sourceTree = "<group>"; };
+		2B1862DC1CE8E51600A0E6EA /* StarField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StarField.swift; path = NAVE/StarField.swift; sourceTree = "<group>"; };
+		2B1862DD1CE8E51600A0E6EA /* Thrust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Thrust.sks; path = NAVE/Thrust.sks; sourceTree = "<group>"; };
+		2B2082891CF60E5B00484894 /* letratmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letratmaiuscula.wav; path = MVA/audio/letrat/letratmaiuscula.wav; sourceTree = "<group>"; };
+		2B20828A1CF60E5B00484894 /* letratminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letratminuscula.wav; path = MVA/audio/letrat/letratminuscula.wav; sourceTree = "<group>"; };
+		2B20828D1CF60E8D00484894 /* letrau.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letrau.swift; sourceTree = "<group>"; };
+		2B20828F1CF60EA800484894 /* letravmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letravmaiuscula.wav; path = MVA/audio/letrav/letravmaiuscula.wav; sourceTree = "<group>"; };
+		2B2082901CF60EA800484894 /* letravminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letravminuscula.wav; path = MVA/audio/letrav/letravminuscula.wav; sourceTree = "<group>"; };
+		2B2082931CF6109900484894 /* urso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = urso.png; path = MVA/img/letras/urso.png; sourceTree = "<group>"; };
+		2B2082951CF6114700484894 /* letraumaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraumaiuscula.wav; path = MVA/audio/letrau/letraumaiuscula.wav; sourceTree = "<group>"; };
+		2B2082961CF6114700484894 /* letrauminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrauminuscula.wav; path = MVA/audio/letrau/letrauminuscula.wav; sourceTree = "<group>"; };
+		2B2082991CF612DD00484894 /* letravmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letravmaiuscula.wav; path = MVA/audio/letrav/letravmaiuscula.wav; sourceTree = "<group>"; };
+		2B20829A1CF612DD00484894 /* letravminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letravminuscula.wav; path = MVA/audio/letrav/letravminuscula.wav; sourceTree = "<group>"; };
+		2B20829D1CF6130900484894 /* vaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vaca.png; path = MVA/img/letras/vaca.png; sourceTree = "<group>"; };
+		2B20829F1CF6136900484894 /* letrav.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letrav.swift; sourceTree = "<group>"; };
+		2B2082A11CF616B900484894 /* wallaby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wallaby.png; path = MVA/img/letras/wallaby.png; sourceTree = "<group>"; };
+		2B2082A31CF6179200484894 /* letraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letraw.swift; sourceTree = "<group>"; };
+		2B2082A51CF618C700484894 /* letrawmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrawmaiuscula.wav; path = MVA/audio/letraw/letrawmaiuscula.wav; sourceTree = "<group>"; };
+		2B2082A61CF618C700484894 /* letrawminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrawminuscula.wav; path = MVA/audio/letraw/letrawminuscula.wav; sourceTree = "<group>"; };
+		2B2082AB1CF61CD100484894 /* ximango.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ximango.png; path = MVA/img/letras/ximango.png; sourceTree = "<group>"; };
+		2B2082AD1CF61D2E00484894 /* letrax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letrax.swift; sourceTree = "<group>"; };
+		2B2082AF1CF61DC200484894 /* letraxmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraxmaiuscula.wav; path = MVA/audio/letrax/letraxmaiuscula.wav; sourceTree = "<group>"; };
+		2B2082B01CF61DC200484894 /* letraxminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraxminuscula.wav; path = MVA/audio/letrax/letraxminuscula.wav; sourceTree = "<group>"; };
+		2B2082B31CF61E2400484894 /* letraymaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraymaiuscula.wav; path = MVA/audio/letray/letraymaiuscula.wav; sourceTree = "<group>"; };
+		2B2082B41CF61E2400484894 /* letrayminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrayminuscula.wav; path = MVA/audio/letray/letrayminuscula.wav; sourceTree = "<group>"; };
+		2B2082B71CF61E2B00484894 /* letrazmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrazmaiuscula.wav; path = MVA/audio/letraz/letrazmaiuscula.wav; sourceTree = "<group>"; };
+		2B2082B81CF61E2B00484894 /* letrazminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrazminuscula.wav; path = MVA/audio/letraz/letrazminuscula.wav; sourceTree = "<group>"; };
+		2B2082BB1CF61ECC00484894 /* yak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yak.png; path = MVA/img/letras/yak.png; sourceTree = "<group>"; };
+		2B2082BC1CF61ECC00484894 /* zebra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zebra.png; path = MVA/img/letras/zebra.png; sourceTree = "<group>"; };
+		2B2E6D621C583DE200FB19E5 /* bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bar.jpg; path = img/telainicio/bar.jpg; sourceTree = "<group>"; };
+		2B4D55E61CF36B790044C0E8 /* dromedario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dromedario.png; path = MVA/img/letras/dromedario.png; sourceTree = "<group>"; };
+		2B4D55E81CF36E340044C0E8 /* kiwi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kiwi.png; path = MVA/img/letras/kiwi.png; sourceTree = "<group>"; };
+		2B5604401CE941280097F487 /* Array2Dinto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Array2Dinto.swift; path = LABIRINTO/Array2Dinto.swift; sourceTree = "<group>"; };
+		2B5604411CE941280097F487 /* cellNodeinto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = cellNodeinto.swift; path = LABIRINTO/cellNodeinto.swift; sourceTree = "<group>"; };
+		2B5604421CE941280097F487 /* DepthFirstSearchinto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DepthFirstSearchinto.swift; path = LABIRINTO/DepthFirstSearchinto.swift; sourceTree = "<group>"; };
+		2B5604431CE941280097F487 /* GameSceneinto.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GameSceneinto.sks; path = LABIRINTO/GameSceneinto.sks; sourceTree = "<group>"; };
+		2B5604441CE941280097F487 /* GameSceneinto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameSceneinto.swift; path = LABIRINTO/GameSceneinto.swift; sourceTree = "<group>"; };
+		2B5604451CE941280097F487 /* GameViewControllerinto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewControllerinto.swift; path = LABIRINTO/GameViewControllerinto.swift; sourceTree = "<group>"; };
+		2B5604461CE941280097F487 /* HealthBarinto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthBarinto.swift; path = LABIRINTO/HealthBarinto.swift; sourceTree = "<group>"; };
+		2B5604471CE941280097F487 /* Heavitas.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Heavitas.ttf; path = LABIRINTO/Heavitas.ttf; sourceTree = "<group>"; };
+		2B5604481CE941280097F487 /* Helperinto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helperinto.swift; path = LABIRINTO/Helperinto.swift; sourceTree = "<group>"; };
+		2B5604491CE941280097F487 /* Mazeinto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mazeinto.swift; path = LABIRINTO/Mazeinto.swift; sourceTree = "<group>"; };
+		2B56044A1CE941280097F487 /* Propertiesinto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Propertiesinto.swift; path = LABIRINTO/Propertiesinto.swift; sourceTree = "<group>"; };
+		2B5604561CE9457F0097F487 /* labirinto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = labirinto.png; path = img/labirinto/labirinto.png; sourceTree = "<group>"; };
+		2B564F711C874E09007FE6C7 /* touchid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = touchid.jpg; path = img/telasobre/touchid.jpg; sourceTree = "<group>"; };
+		2B564F731C875117007FE6C7 /* som.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = som.png; path = img/telasobre/som.png; sourceTree = "<group>"; };
+		2B564F751C875501007FE6C7 /* game.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = game.jpg; path = img/telasobre/game.jpg; sourceTree = "<group>"; };
+		2B792DFF1C596BE9003D1137 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = img/telainicio/bg.png; sourceTree = "<group>"; };
+		2B7AAC501CEFE26F003EBED3 /* video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = video.png; path = img/letras/video.png; sourceTree = "<group>"; };
+		2B7AAC521CEFE42B003EBED3 /* casa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = casa.png; path = img/letras/casa.png; sourceTree = "<group>"; };
+		2B8373801C7C9E90009D8CCD /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = img/telainfo/back.png; sourceTree = "<group>"; };
+		2B8373811C7C9E90009D8CCD /* fundo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fundo.png; path = img/telainfo/fundo.png; sourceTree = "<group>"; };
+		2B8373821C7C9E90009D8CCD /* info1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info1.png; path = img/telainfo/info1.png; sourceTree = "<group>"; };
+		2B8373831C7C9E90009D8CCD /* info2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info2.png; path = img/telainfo/info2.png; sourceTree = "<group>"; };
+		2B861DC01C9AD2D500218569 /* jogos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jogos.png; path = img/telajogo/jogos.png; sourceTree = "<group>"; };
+		2B95ED1D1CF5D3A700BAA948 /* sapo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sapo.png; path = MVA/img/letras/sapo.png; sourceTree = "<group>"; };
+		2B95ED1F1CF5D45600BAA948 /* letras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letras.swift; sourceTree = "<group>"; };
+		2B95ED211CF5DC0200BAA948 /* tartaruga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tartaruga.png; path = MVA/img/letras/tartaruga.png; sourceTree = "<group>"; };
+		2B997B431CFA62770091D590 /* letranmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letranmaiuscula.wav; path = MVA/audio/letran/letranmaiuscula.wav; sourceTree = "<group>"; };
+		2B997B441CFA62770091D590 /* letranminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letranminuscula.wav; path = MVA/audio/letran/letranminuscula.wav; sourceTree = "<group>"; };
+		2BA30AC81CEEAE0800A83958 /* letraa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letraa.swift; sourceTree = "<group>"; };
+		2BC4BA2A1C762955008783DF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2BC4BA2C1C762955008783DF /* MVA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MVA.entitlements; sourceTree = "<group>"; };
+		2BC4BA2F1C762A86008783DF /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = game.png; path = img/telainicio/game.png; sourceTree = "<group>"; };
+		2BC4BA311C7633D5008783DF /* game1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = game1.png; path = img/telainicio/game1.png; sourceTree = "<group>"; };
+		2BC4BA331C7634AE008783DF /* livro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = livro.png; path = img/telainicio/livro.png; sourceTree = "<group>"; };
+		2BC4BA351C764A52008783DF /* livro1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = livro1.png; path = img/telainicio/livro1.png; sourceTree = "<group>"; };
+		2BC97DCE1C779D040076942E /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = img/telainicio/info.png; sourceTree = "<group>"; };
+		2BC97DD01C77B7720076942E /* info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = info.swift; sourceTree = "<group>"; };
+		2BD24B281CEFEB4800164419 /* avestruz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = avestruz.png; path = MVA/img/letras/avestruz.png; sourceTree = "<group>"; };
+		2BD45C491CF4D0DD00BA648F /* letran.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letran.swift; sourceTree = "<group>"; };
+		2BD45C4B1CF4D37D00BA648F /* letranmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letranmaiuscula.wav; path = MVA/audio/letran/letranmaiuscula.wav; sourceTree = "<group>"; };
+		2BD45C4C1CF4D37D00BA648F /* letranminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letranminuscula.wav; path = MVA/audio/letran/letranminuscula.wav; sourceTree = "<group>"; };
+		2BD45C4F1CF4D4EF00BA648F /* narval.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = narval.png; path = MVA/img/letras/narval.png; sourceTree = "<group>"; };
+		2BD45C511CF4D73F00BA648F /* ovelha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ovelha.png; path = MVA/img/letras/ovelha.png; sourceTree = "<group>"; };
+		2BD45C531CF4D77B00BA648F /* letraomaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraomaiuscula.wav; path = MVA/audio/letrao/letraomaiuscula.wav; sourceTree = "<group>"; };
+		2BD45C541CF4D77B00BA648F /* letraominuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraominuscula.wav; path = MVA/audio/letrao/letraominuscula.wav; sourceTree = "<group>"; };
+		2BD45C571CF4D7AF00BA648F /* letrao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letrao.swift; sourceTree = "<group>"; };
+		2BD45C591CF4DAFF00BA648F /* porco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = porco.png; path = MVA/img/letras/porco.png; sourceTree = "<group>"; };
+		2BD45C5B1CF4DB6D00BA648F /* letrap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letrap.swift; sourceTree = "<group>"; };
+		2BD45C5D1CF4DC5100BA648F /* letrapmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrapmaiuscula.wav; path = MVA/audio/letrap/letrapmaiuscula.wav; sourceTree = "<group>"; };
+		2BD45C5E1CF4DC5100BA648F /* letrapminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrapminuscula.wav; path = MVA/audio/letrap/letrapminuscula.wav; sourceTree = "<group>"; };
+		2BD45C611CF4DDDE00BA648F /* quati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quati.png; path = MVA/img/letras/quati.png; sourceTree = "<group>"; };
+		2BD45C631CF4DE0600BA648F /* letraq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letraq.swift; sourceTree = "<group>"; };
+		2BD45C651CF4E0CC00BA648F /* letraqmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraqmaiuscula.wav; path = MVA/audio/letraq/letraqmaiuscula.wav; sourceTree = "<group>"; };
+		2BD45C661CF4E0CC00BA648F /* letraqminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letraqminuscula.wav; path = MVA/audio/letraq/letraqminuscula.wav; sourceTree = "<group>"; };
+		2BD45C691CF4E10A00BA648F /* rinoceronte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rinoceronte.png; path = MVA/img/letras/rinoceronte.png; sourceTree = "<group>"; };
+		2BD45C6B1CF4FDD100BA648F /* letrar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = letrar.swift; sourceTree = "<group>"; };
+		2BD45C6D1CF5003100BA648F /* letrarmaiuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrarmaiuscula.wav; path = MVA/audio/letrar/letrarmaiuscula.wav; sourceTree = "<group>"; };
+		2BD45C6E1CF5003100BA648F /* letrarminuscula.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = letrarminuscula.wav; path = MVA/audio/letrar/letrarminuscula.wav; sourceTree = "<group>"; };
+		2BDCBC101CFBB79E001DBA18 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		2BDCBC111CFBBB85001DBA18 /* letragexercicio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = letragexercicio.swift; path = exercicios/letragexercicio.swift; sourceTree = "<group>"; };
+		2BDCBC131CFBC152001DBA18 /* animalletrag.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = animalletrag.wav; path = MVA/audio/animais/exercicioG/animalletrag.wav; sourceTree = "<group>"; };
+		2BDCBC141CFBC152001DBA18 /* gato.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gato.wav; path = MVA/audio/animais/exercicioG/gato.wav; sourceTree = "<group>"; };
+		2BF1D75C1C7F816600F7C075 /* ajustes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ajustes.png; path = img/telainfo/ajustes.png; sourceTree = "<group>"; };
+		2BF1D75E1C7F82F000F7C075 /* sobre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sobre.png; path = img/telasobre/sobre.png; sourceTree = "<group>"; };
+		2BF1D7641C7F985500F7C075 /* fatec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fatec.png; path = img/telasobre/fatec.png; sourceTree = "<group>"; };
+		2BF1D7661C7F99C200F7C075 /* ajuda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ajuda.png; path = img/telaajuda/ajuda.png; sourceTree = "<group>"; };
+		2BF2443E1CEA30A200497822 /* transitar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transitar.png; path = img/trafego/transitar.png; sourceTree = "<group>"; };
+		2BF244401CEA332200497822 /* Celextir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Celextir.png; path = img/nave/Celextir.png; sourceTree = "<group>"; };
+		2BF244421CEA364F00497822 /* escurin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = escurin.png; path = img/labirinto/escurin.png; sourceTree = "<group>"; };
+		2BF30C141CF1EE67003CF70E /* atras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = atras.png; path = img/letras/atras.png; sourceTree = "<group>"; };
+		2BF30C151CF1EE67003CF70E /* frente.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frente.png; path = img/letras/frente.png; sourceTree = "<group>"; };
+		2BF30C181CF1EF18003CF70E /* fundo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fundo.jpg; path = img/letras/fundo.jpg; sourceTree = "<group>"; };
+		2BF9447C1CE424E80041DD45 /* transito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transito.png; path = img/trafego/transito.png; sourceTree = "<group>"; };
+		2BFC4F6C1C7271BC0054990D /* menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B03CED11C53075600F5E914 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC4BA2B1C762955008783DF /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B0171221CF1F96700667CC6 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				2B0171DA1CF2696600667CC6 /* letrammaiuscula.wav */,
+				2B2082951CF6114700484894 /* letraumaiuscula.wav */,
+				2B2082961CF6114700484894 /* letrauminuscula.wav */,
+				2BD45C531CF4D77B00BA648F /* letraomaiuscula.wav */,
+				2B2082991CF612DD00484894 /* letravmaiuscula.wav */,
+				2B997B431CFA62770091D590 /* letranmaiuscula.wav */,
+				2B0E190C1CFB4EE1002C7C64 /* letrabbaleia.wav */,
+				2B0E190D1CFB4EE1002C7C64 /* letraccachorro.wav */,
+				2B0E190E1CFB4EE1002C7C64 /* letraddromedario.wav */,
+				2B0E190F1CFB4EE1002C7C64 /* letraeelefante.wav */,
+				2B0E19101CFB4EE1002C7C64 /* letraffoca.wav */,
+				2B0E19111CFB4EE1002C7C64 /* letraggato.wav */,
+				2B0E19121CFB4EE1002C7C64 /* letrahhipopotamo.wav */,
+				2B0E19131CFB4EE1002C7C64 /* letraiiguana.wav */,
+				2B0E19141CFB4EE1002C7C64 /* letrajjacare.wav */,
+				2B0E19151CFB4EE1002C7C64 /* letrakkiwi.wav */,
+				2B0E19161CFB4EE1002C7C64 /* letralleao.wav */,
+				2B0E19171CFB4EE1002C7C64 /* letrammacaco.wav */,
+				2B0E19181CFB4EE1002C7C64 /* letrannarval.wav */,
+				2B0E19191CFB4EE1002C7C64 /* letraoovelha.wav */,
+				2B0E191A1CFB4EE1002C7C64 /* letrapporco.wav */,
+				2B0E191B1CFB4EE1002C7C64 /* letraqquati.wav */,
+				2B0E191C1CFB4EE1002C7C64 /* letrarrinoceronte.wav */,
+				2B0E191D1CFB4EE1002C7C64 /* letrassapo.wav */,
+				2B0E191E1CFB4EE1002C7C64 /* letrattartaruga.wav */,
+				2B0E191F1CFB4EE1002C7C64 /* letrauurso.wav */,
+				2B0E19201CFB4EE1002C7C64 /* letravvaca.wav */,
+				2B0E19211CFB4EE1002C7C64 /* letrawwallaby.wav */,
+				2B0E19221CFB4EE1002C7C64 /* letraxximango.wav */,
+				2B0E19231CFB4EE1002C7C64 /* letrayyak.wav */,
+				2B0E19241CFB4EE1002C7C64 /* letrazzebra.wav */,
+				2B997B441CFA62770091D590 /* letranminuscula.wav */,
+				2B20829A1CF612DD00484894 /* letravminuscula.wav */,
+				2BD45C541CF4D77B00BA648F /* letraominuscula.wav */,
+				2B0171DB1CF2696600667CC6 /* letramminuscula.wav */,
+				2BD45C651CF4E0CC00BA648F /* letraqmaiuscula.wav */,
+				2BD45C661CF4E0CC00BA648F /* letraqminuscula.wav */,
+				2BDCBC131CFBC152001DBA18 /* animalletrag.wav */,
+				2BDCBC141CFBC152001DBA18 /* gato.wav */,
+				2B0171231CF1F97100667CC6 /* letraaavestruz.wav */,
+				2B2082B31CF61E2400484894 /* letraymaiuscula.wav */,
+				2B2082B41CF61E2400484894 /* letrayminuscula.wav */,
+				2B0171961CF24C0700667CC6 /* letrafmaiuscula.wav */,
+				2BD45C5D1CF4DC5100BA648F /* letrapmaiuscula.wav */,
+				2B2082A51CF618C700484894 /* letrawmaiuscula.wav */,
+				2B2082AF1CF61DC200484894 /* letraxmaiuscula.wav */,
+				2B2082B01CF61DC200484894 /* letraxminuscula.wav */,
+				2B2082B71CF61E2B00484894 /* letrazmaiuscula.wav */,
+				2B2082B81CF61E2B00484894 /* letrazminuscula.wav */,
+				2B2082A61CF618C700484894 /* letrawminuscula.wav */,
+				2BD45C5E1CF4DC5100BA648F /* letrapminuscula.wav */,
+				2B0171B21CF2593900667CC6 /* letraimaiuscula.wav */,
+				2B0171B31CF2593900667CC6 /* letraiminuscula.wav */,
+				2BD45C4B1CF4D37D00BA648F /* letranmaiuscula.wav */,
+				2BD45C4C1CF4D37D00BA648F /* letranminuscula.wav */,
+				2B0171971CF24C0700667CC6 /* letrafminuscula.wav */,
+				2B01719E1CF24F1000667CC6 /* letragmaiuscula.wav */,
+				2B03FBC41CF60A4C00C19201 /* letrasmaiuscula.wav */,
+				2B03FBC51CF60A4C00C19201 /* letrasminuscula.wav */,
+				2B0171CA1CF2639900667CC6 /* letralmaiuscula.wav */,
+				2B0171D41CF2684800667CC6 /* letrammaiuscula.wav */,
+				2B0171D51CF2684800667CC6 /* letramminuscula.wav */,
+				2B0171CB1CF2639900667CC6 /* letralminuscula.wav */,
+				2B0171CE1CF2667700667CC6 /* letralmaiuscula.wav */,
+				2B0171CF1CF2667700667CC6 /* letralminuscula.wav */,
+				2BD45C6D1CF5003100BA648F /* letrarmaiuscula.wav */,
+				2B2082891CF60E5B00484894 /* letratmaiuscula.wav */,
+				2B20828A1CF60E5B00484894 /* letratminuscula.wav */,
+				2BD45C6E1CF5003100BA648F /* letrarminuscula.wav */,
+				2B0171A61CF2515300667CC6 /* letrahmaiuscula.wav */,
+				2B0171BE1CF25F6D00667CC6 /* letrakmaiuscula.wav */,
+				2B0171BF1CF25F6D00667CC6 /* letrakminuscula.wav */,
+				2B0171A71CF2515300667CC6 /* letrahminuscula.wav */,
+				2B0171AE1CF2581D00667CC6 /* letraimaiuscula.wav */,
+				2B0171AF1CF2581D00667CC6 /* letraiminuscula.wav */,
+				2B01719F1CF24F1000667CC6 /* letragminuscula.wav */,
+				2B0171801CF244D300667CC6 /* letracmaiuscula.wav */,
+				2B0171861CF247CA00667CC6 /* letradmaiuscula.wav */,
+				2B0171871CF247CA00667CC6 /* letradminuscula.wav */,
+				2B0171811CF244D300667CC6 /* letracminuscula.wav */,
+				2B01718E1CF2496200667CC6 /* letraemaiuscula.wav */,
+				2B01718F1CF2496200667CC6 /* letraeminuscula.wav */,
+				2B0171761CF23D0F00667CC6 /* letrabmaiuscula.wav */,
+				2B0171771CF23D0F00667CC6 /* letrabminuscula.wav */,
+				2B0171BA1CF25C9200667CC6 /* letrajmaiuscula.wav */,
+				2B20828F1CF60EA800484894 /* letravmaiuscula.wav */,
+				2B2082901CF60EA800484894 /* letravminuscula.wav */,
+				2B0171BB1CF25C9200667CC6 /* letrajminuscula.wav */,
+				2B0171241CF1F97100667CC6 /* letraamaiuscula.wav */,
+				2B0171251CF1F97100667CC6 /* letraaminuscula.wav */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+		2B03CECB1C53075600F5E914 = {
+			isa = PBXGroup;
+			children = (
+				2BC4BA2A1C762955008783DF /* AudioToolbox.framework */,
+				2B03CED61C53075600F5E914 /* MVA */,
+				2B03CED51C53075600F5E914 /* Products */,
+				2BB6F39A1C5649DC00AD682C /* img */,
+				2BF30C131CF1EDED003CF70E /* animais */,
+				2B0171221CF1F96700667CC6 /* audio */,
+			);
+			sourceTree = "<group>";
+		};
+		2B03CED51C53075600F5E914 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B03CED41C53075600F5E914 /* MVA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B03CED61C53075600F5E914 /* MVA */ = {
+			isa = PBXGroup;
+			children = (
+				2B68DE211CE93549000920F2 /* ESCURIN */,
+				2B1862D01CE8E38900A0E6EA /* SELEXTIR */,
+				2B1862BF1CE8E04000A0E6EA /* TRANSITAR */,
+				2BC4BA2C1C762955008783DF /* MVA.entitlements */,
+				2B03CED71C53075600F5E914 /* AppDelegate.swift */,
+				2B03CED91C53075600F5E914 /* ViewController.swift */,
+				2B0171701CF234EF00667CC6 /* intro.wav */,
+				2B03CEDB1C53075600F5E914 /* Main.storyboard */,
+				2BA30AC81CEEAE0800A83958 /* letraa.swift */,
+				2BDCBC111CFBBB85001DBA18 /* letragexercicio.swift */,
+				2B0171741CF23AD300667CC6 /* letrab.swift */,
+				2B01717E1CF2447800667CC6 /* letrac.swift */,
+				2B0171841CF246F400667CC6 /* letrad.swift */,
+				2B01718A1CF2488300667CC6 /* letrae.swift */,
+				2B0171941CF24B7B00667CC6 /* letraf.swift */,
+				2B01719C1CF24E3700667CC6 /* letrag.swift */,
+				2B0171A41CF2510B00667CC6 /* letrah.swift */,
+				2B0171AC1CF255F900667CC6 /* letrai.swift */,
+				2B0171B81CF25BF700667CC6 /* letraj.swift */,
+				2B0171C41CF2606100667CC6 /* letrak.swift */,
+				2B0171C81CF2633100667CC6 /* letral.swift */,
+				2B0171D81CF2687600667CC6 /* letram.swift */,
+				2BD45C491CF4D0DD00BA648F /* letran.swift */,
+				2BD45C571CF4D7AF00BA648F /* letrao.swift */,
+				2BD45C5B1CF4DB6D00BA648F /* letrap.swift */,
+				2BD45C631CF4DE0600BA648F /* letraq.swift */,
+				2BD45C6B1CF4FDD100BA648F /* letrar.swift */,
+				2B95ED1F1CF5D45600BAA948 /* letras.swift */,
+				2B03FBC21CF6084D00C19201 /* letrat.swift */,
+				2B20828D1CF60E8D00484894 /* letrau.swift */,
+				2B20829F1CF6136900484894 /* letrav.swift */,
+				2B2082A31CF6179200484894 /* letraw.swift */,
+				2B2082AD1CF61D2E00484894 /* letrax.swift */,
+				2B1504D01CF61F7C00C9B4E1 /* letray.swift */,
+				2B1504D21CF6200000C9B4E1 /* letraz.swift */,
+				2B03CEE11C53075600F5E914 /* Assets.xcassets */,
+				2B03CEE61C53075600F5E914 /* Info.plist */,
+				2B03CEDE1C53075600F5E914 /* MVA.xcdatamodeld */,
+				2B1082D11CD00FEF00176CBD /* contatenos.swift */,
+				2BFC4F6C1C7271BC0054990D /* menu.swift */,
+				2BC97DD01C77B7720076942E /* info.swift */,
+			);
+			path = MVA;
+			sourceTree = "<group>";
+		};
+		2B1862BF1CE8E04000A0E6EA /* TRANSITAR */ = {
+			isa = PBXGroup;
+			children = (
+				2B1862C01CE8E1CC00A0E6EA /* AdditionalNodes.swift */,
+				2B1862C11CE8E1CC00A0E6EA /* Car.swift */,
+				2B1862C21CE8E1CC00A0E6EA /* Constants.swift */,
+				2B1862C31CE8E1CC00A0E6EA /* Extensions.swift */,
+				2B1862C41CE8E1CC00A0E6EA /* GameScene.sks */,
+				2B1862C51CE8E1CC00A0E6EA /* GameScene.swift */,
+				2B1862C61CE8E1CC00A0E6EA /* GameViewController.swift */,
+				2B1862C71CE8E1CC00A0E6EA /* RoadBeziers.swift */,
+			);
+			name = TRANSITAR;
+			sourceTree = "<group>";
+		};
+		2B1862D01CE8E38900A0E6EA /* SELEXTIR */ = {
+			isa = PBXGroup;
+			children = (
+				2B1862D11CE8E51600A0E6EA /* darkExplosion.wav */,
+				2B1862D21CE8E51600A0E6EA /* explosion.wav */,
+				2B1862D31CE8E51600A0E6EA /* GameScenenave.sks */,
+				2B1862D41CE8E51600A0E6EA /* GameScenenave.swift */,
+				2B1862D51CE8E51600A0E6EA /* GameViewControllernave.swift */,
+				2B1862D61CE8E51600A0E6EA /* HUDNode.swift */,
+				2B1862D71CE8E51600A0E6EA /* laserShot.wav */,
+				2B1862D81CE8E51600A0E6EA /* ObstacleExplode.sks */,
+				2B1862D91CE8E51600A0E6EA /* ShipExplode.sks */,
+				2B1862DA1CE8E51600A0E6EA /* SKEmitterNodeExtension.swift */,
+				2B1862DB1CE8E51600A0E6EA /* spark.png */,
+				2B1862DC1CE8E51600A0E6EA /* StarField.swift */,
+				2B1862DD1CE8E51600A0E6EA /* Thrust.sks */,
+			);
+			name = SELEXTIR;
+			sourceTree = "<group>";
+		};
+		2B68DE211CE93549000920F2 /* ESCURIN */ = {
+			isa = PBXGroup;
+			children = (
+				2B5604401CE941280097F487 /* Array2Dinto.swift */,
+				2B5604411CE941280097F487 /* cellNodeinto.swift */,
+				2B5604421CE941280097F487 /* DepthFirstSearchinto.swift */,
+				2B5604431CE941280097F487 /* GameSceneinto.sks */,
+				2B5604441CE941280097F487 /* GameSceneinto.swift */,
+				2B5604451CE941280097F487 /* GameViewControllerinto.swift */,
+				2B5604461CE941280097F487 /* HealthBarinto.swift */,
+				2B5604471CE941280097F487 /* Heavitas.ttf */,
+				2B5604481CE941280097F487 /* Helperinto.swift */,
+				2B5604491CE941280097F487 /* Mazeinto.swift */,
+				2B56044A1CE941280097F487 /* Propertiesinto.swift */,
+			);
+			name = ESCURIN;
+			sourceTree = "<group>";
+		};
+		2BB6F39A1C5649DC00AD682C /* img */ = {
+			isa = PBXGroup;
+			children = (
+				2BF30C141CF1EE67003CF70E /* atras.png */,
+				2BF30C151CF1EE67003CF70E /* frente.png */,
+				2B7AAC521CEFE42B003EBED3 /* casa.png */,
+				2B7AAC501CEFE26F003EBED3 /* video.png */,
+				2BF2443E1CEA30A200497822 /* transitar.png */,
+				2B5604561CE9457F0097F487 /* labirinto.png */,
+				2B1082D31CD012B600176CBD /* btn.png */,
+				2B1082CF1CCFF91000176CBD /* contatenos.png */,
+				2B07106D1CE92923006CC3CD /* nave.png */,
+				2B564F751C875501007FE6C7 /* game.jpg */,
+				2BF244401CEA332200497822 /* Celextir.png */,
+				2B564F731C875117007FE6C7 /* som.png */,
+				2BF9447C1CE424E80041DD45 /* transito.png */,
+				2B564F711C874E09007FE6C7 /* touchid.jpg */,
+				2BF1D7661C7F99C200F7C075 /* ajuda.png */,
+				2B184BED1C7534C000A37B7D /* 1.png */,
+				2B184BEF1C7534C000A37B7D /* 2.png */,
+				2B184BF01C7534C000A37B7D /* 3.png */,
+				2B11C7FF1CD1561F0065CADF /* mais.png */,
+				2B184BF11C7534C000A37B7D /* 4.png */,
+				2B184BF21C7534C000A37B7D /* 5.png */,
+				2B861DC01C9AD2D500218569 /* jogos.png */,
+				2B184BF31C7534C000A37B7D /* 6.png */,
+				2B184BF41C7534C000A37B7D /* 7.png */,
+				2BF244421CEA364F00497822 /* escurin.png */,
+				2BF1D7641C7F985500F7C075 /* fatec.png */,
+				2BF30C181CF1EF18003CF70E /* fundo.jpg */,
+				2BF1D75C1C7F816600F7C075 /* ajustes.png */,
+				2B8373801C7C9E90009D8CCD /* back.png */,
+				2B8373811C7C9E90009D8CCD /* fundo.png */,
+				2B8373821C7C9E90009D8CCD /* info1.png */,
+				2BF1D75E1C7F82F000F7C075 /* sobre.png */,
+				2B8373831C7C9E90009D8CCD /* info2.png */,
+				2B2E6D621C583DE200FB19E5 /* bar.jpg */,
+				2B792DFF1C596BE9003D1137 /* bg.png */,
+				2B16E77F1C74CD26007BE5B5 /* mva.png */,
+				2B184BFD1C7538AD00A37B7D /* nome.png */,
+				2B16E7801C74CD26007BE5B5 /* mva1.png */,
+				2B0E7DDC1C7377B50080B04F /* avatar.png */,
+				2BC4BA2F1C762A86008783DF /* game.png */,
+				2BC4BA311C7633D5008783DF /* game1.png */,
+				2BC4BA351C764A52008783DF /* livro1.png */,
+				2BC4BA331C7634AE008783DF /* livro.png */,
+				2BC97DCE1C779D040076942E /* info.png */,
+			);
+			name = img;
+			path = MVA;
+			sourceTree = "<group>";
+		};
+		2BF30C131CF1EDED003CF70E /* animais */ = {
+			isa = PBXGroup;
+			children = (
+				2B01717C1CF2443F00667CC6 /* cachorro.png */,
+				2B4D55E61CF36B790044C0E8 /* dromedario.png */,
+				2B01718C1CF248EA00667CC6 /* elefante.png */,
+				2BD45C691CF4E10A00BA648F /* rinoceronte.png */,
+				2B95ED211CF5DC0200BAA948 /* tartaruga.png */,
+				2B0171AA1CF2556B00667CC6 /* iguana.png */,
+				2B2082BB1CF61ECC00484894 /* yak.png */,
+				2B2082BC1CF61ECC00484894 /* zebra.png */,
+				2B01719A1CF24DD700667CC6 /* gato.png */,
+				2BD45C591CF4DAFF00BA648F /* porco.png */,
+				2B0171C21CF25FBA00667CC6 /* jacare.png */,
+				2BD45C611CF4DDDE00BA648F /* quati.png */,
+				2B2082931CF6109900484894 /* urso.png */,
+				2B95ED1D1CF5D3A700BAA948 /* sapo.png */,
+				2BD45C4F1CF4D4EF00BA648F /* narval.png */,
+				2B2082A11CF616B900484894 /* wallaby.png */,
+				2B4D55E81CF36E340044C0E8 /* kiwi.png */,
+				2B2082AB1CF61CD100484894 /* ximango.png */,
+				2B0171D21CF267D000667CC6 /* macaco.png */,
+				2BD45C511CF4D73F00BA648F /* ovelha.png */,
+				2B0171921CF24B2F00667CC6 /* foca.png */,
+				2B20829D1CF6130900484894 /* vaca.png */,
+				2BD24B281CEFEB4800164419 /* avestruz.png */,
+				2B0171C61CF262D200667CC6 /* leao.png */,
+				2B0171A21CF2507C00667CC6 /* hipopotamo.png */,
+				2B01717A1CF242DB00667CC6 /* baleia.png */,
+			);
+			name = animais;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B03CED31C53075600F5E914 /* MVA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B03CEE91C53075600F5E914 /* Build configuration list for PBXNativeTarget "MVA" */;
+			buildPhases = (
+				2B03CED01C53075600F5E914 /* Sources */,
+				2B03CED11C53075600F5E914 /* Frameworks */,
+				2B03CED21C53075600F5E914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVA;
+			productName = MVA;
+			productReference = 2B03CED41C53075600F5E914 /* MVA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B03CECC1C53075600F5E914 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Cleyton Souza";
+				TargetAttributes = {
+					2B03CED31C53075600F5E914 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MWYPFFW2R2;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 2B03CECF1C53075600F5E914 /* Build configuration list for PBXProject "MVA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = 2B03CECB1C53075600F5E914;
+			productRefGroup = 2B03CED51C53075600F5E914 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B03CED31C53075600F5E914 /* MVA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B03CED21C53075600F5E914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B0E192E1CFB4EE1002C7C64 /* letrakkiwi.wav in Resources */,
+				2B1862DE1CE8E51600A0E6EA /* darkExplosion.wav in Resources */,
+				2B07106E1CE92923006CC3CD /* nave.png in Resources */,
+				2B01717D1CF2443F00667CC6 /* cachorro.png in Resources */,
+				2B0171B11CF2581D00667CC6 /* letraiminuscula.wav in Resources */,
+				2BF1D75D1C7F816600F7C075 /* ajustes.png in Resources */,
+				2B0E193B1CFB4EE1002C7C64 /* letraxximango.wav in Resources */,
+				2B1862E01CE8E51600A0E6EA /* GameScenenave.sks in Resources */,
+				2B0171CD1CF2639900667CC6 /* letralminuscula.wav in Resources */,
+				2B184BFB1C7534C000A37B7D /* 6.png in Resources */,
+				2BC4BA321C7633D5008783DF /* game1.png in Resources */,
+				2B8373871C7C9E90009D8CCD /* info2.png in Resources */,
+				2BF244411CEA332200497822 /* Celextir.png in Resources */,
+				2B0171271CF1F97100667CC6 /* letraamaiuscula.wav in Resources */,
+				2BF9447D1CE424E80041DD45 /* transito.png in Resources */,
+				2BD45C5A1CF4DAFF00BA648F /* porco.png in Resources */,
+				2B2082A81CF618C700484894 /* letrawminuscula.wav in Resources */,
+				2B564F721C874E09007FE6C7 /* touchid.jpg in Resources */,
+				2B0E192F1CFB4EE1002C7C64 /* letralleao.wav in Resources */,
+				2B184BF91C7534C000A37B7D /* 4.png in Resources */,
+				2B1862CC1CE8E1CC00A0E6EA /* GameScene.sks in Resources */,
+				2B20829B1CF612DD00484894 /* letravmaiuscula.wav in Resources */,
+				2B0171C31CF25FBA00667CC6 /* jacare.png in Resources */,
+				2B0171AB1CF2556B00667CC6 /* iguana.png in Resources */,
+				2B0E19381CFB4EE1002C7C64 /* letrauurso.wav in Resources */,
+				2B0171781CF23D0F00667CC6 /* letrabmaiuscula.wav in Resources */,
+				2B1082D41CD012B600176CBD /* btn.png in Resources */,
+				2B0171931CF24B2F00667CC6 /* foca.png in Resources */,
+				2B0E19371CFB4EE1002C7C64 /* letrattartaruga.wav in Resources */,
+				2BF1D75F1C7F82F000F7C075 /* sobre.png in Resources */,
+				2B5604521CE941280097F487 /* Heavitas.ttf in Resources */,
+				2B0171D01CF2667700667CC6 /* letralmaiuscula.wav in Resources */,
+				2BD45C561CF4D77B00BA648F /* letraominuscula.wav in Resources */,
+				2B01718D1CF248EA00667CC6 /* elefante.png in Resources */,
+				2B0171281CF1F97100667CC6 /* letraaminuscula.wav in Resources */,
+				2B2082B91CF61E2B00484894 /* letrazmaiuscula.wav in Resources */,
+				2BF30C161CF1EE67003CF70E /* atras.png in Resources */,
+				2B2082BE1CF61ECC00484894 /* zebra.png in Resources */,
+				2B20829E1CF6130900484894 /* vaca.png in Resources */,
+				2B0171991CF24C0700667CC6 /* letrafminuscula.wav in Resources */,
+				2B1082D01CCFF91000176CBD /* contatenos.png in Resources */,
+				2B184BF81C7534C000A37B7D /* 3.png in Resources */,
+				2BC4BA341C7634AE008783DF /* livro.png in Resources */,
+				2B20828B1CF60E5B00484894 /* letratmaiuscula.wav in Resources */,
+				2B792E001C596BE9003D1137 /* bg.png in Resources */,
+				2B0E193D1CFB4EE1002C7C64 /* letrazzebra.wav in Resources */,
+				2B0E19341CFB4EE1002C7C64 /* letraqquati.wav in Resources */,
+				2B0E19351CFB4EE1002C7C64 /* letrarrinoceronte.wav in Resources */,
+				2B0E192D1CFB4EE1002C7C64 /* letrajjacare.wav in Resources */,
+				2B2082971CF6114700484894 /* letraumaiuscula.wav in Resources */,
+				2B0171A81CF2515300667CC6 /* letrahmaiuscula.wav in Resources */,
+				2B0171DD1CF2696600667CC6 /* letramminuscula.wav in Resources */,
+				2B0171C01CF25F6D00667CC6 /* letrakmaiuscula.wav in Resources */,
+				2B0E19391CFB4EE1002C7C64 /* letravvaca.wav in Resources */,
+				2B0171DC1CF2696600667CC6 /* letrammaiuscula.wav in Resources */,
+				2B2082A71CF618C700484894 /* letrawmaiuscula.wav in Resources */,
+				2B184BF51C7534C000A37B7D /* 1.png in Resources */,
+				2BD45C551CF4D77B00BA648F /* letraomaiuscula.wav in Resources */,
+				2B20829C1CF612DD00484894 /* letravminuscula.wav in Resources */,
+				2B997B451CFA62770091D590 /* letranmaiuscula.wav in Resources */,
+				2B997B461CFA62770091D590 /* letranminuscula.wav in Resources */,
+				2B1862E61CE8E51600A0E6EA /* ShipExplode.sks in Resources */,
+				2B1862E41CE8E51600A0E6EA /* laserShot.wav in Resources */,
+				2B0E19281CFB4EE1002C7C64 /* letraeelefante.wav in Resources */,
+				2B2082B51CF61E2400484894 /* letraymaiuscula.wav in Resources */,
+				2B0E193A1CFB4EE1002C7C64 /* letrawwallaby.wav in Resources */,
+				2B184BF71C7534C000A37B7D /* 2.png in Resources */,
+				2BF244431CEA364F00497822 /* escurin.png in Resources */,
+				2BD45C671CF4E0CC00BA648F /* letraqmaiuscula.wav in Resources */,
+				2B0E7DDD1C7377B50080B04F /* avatar.png in Resources */,
+				2BD45C681CF4E0CC00BA648F /* letraqminuscula.wav in Resources */,
+				2BC4BA361C764A52008783DF /* livro1.png in Resources */,
+				2B0E19271CFB4EE1002C7C64 /* letraddromedario.wav in Resources */,
+				2B0171901CF2496200667CC6 /* letraemaiuscula.wav in Resources */,
+				2BD45C621CF4DDDE00BA648F /* quati.png in Resources */,
+				2B2E6D631C583DE200FB19E5 /* bar.jpg in Resources */,
+				2B564F741C875117007FE6C7 /* som.png in Resources */,
+				2B0E19251CFB4EE1002C7C64 /* letrabbaleia.wav in Resources */,
+				2B5604571CE9457F0097F487 /* labirinto.png in Resources */,
+				2BD45C6A1CF4E10A00BA648F /* rinoceronte.png in Resources */,
+				2B0E19301CFB4EE1002C7C64 /* letrammacaco.wav in Resources */,
+				2BDCBC151CFBC152001DBA18 /* animalletrag.wav in Resources */,
+				2B8373841C7C9E90009D8CCD /* back.png in Resources */,
+				2B0171BD1CF25C9200667CC6 /* letrajminuscula.wav in Resources */,
+				2BD45C701CF5003100BA648F /* letrarminuscula.wav in Resources */,
+				2BC97DCF1C779D040076942E /* info.png in Resources */,
+				2B0171881CF247CA00667CC6 /* letradmaiuscula.wav in Resources */,
+				2B8373861C7C9E90009D8CCD /* info1.png in Resources */,
+				2B0E193C1CFB4EE1002C7C64 /* letrayyak.wav in Resources */,
+				2B0171A01CF24F1000667CC6 /* letragmaiuscula.wav in Resources */,
+				2B0E19261CFB4EE1002C7C64 /* letraccachorro.wav in Resources */,
+				2B0171911CF2496200667CC6 /* letraeminuscula.wav in Resources */,
+				2B0171711CF234EF00667CC6 /* intro.wav in Resources */,
+				2B0171B41CF2593900667CC6 /* letraimaiuscula.wav in Resources */,
+				2B2082941CF6109900484894 /* urso.png in Resources */,
+				2B11C8001CD1561F0065CADF /* mais.png in Resources */,
+				2B2082A21CF616B900484894 /* wallaby.png in Resources */,
+				2B0171831CF244D300667CC6 /* letracminuscula.wav in Resources */,
+				2BF1D7671C7F99C200F7C075 /* ajuda.png in Resources */,
+				2B2082B11CF61DC200484894 /* letraxmaiuscula.wav in Resources */,
+				2B03FBC71CF60A4C00C19201 /* letrasminuscula.wav in Resources */,
+				2B01717B1CF242DB00667CC6 /* baleia.png in Resources */,
+				2B4D55E91CF36E340044C0E8 /* kiwi.png in Resources */,
+				2BD45C521CF4D73F00BA648F /* ovelha.png in Resources */,
+				2B0E19361CFB4EE1002C7C64 /* letrassapo.wav in Resources */,
+				2B0E19311CFB4EE1002C7C64 /* letrannarval.wav in Resources */,
+				2B16E7811C74CD26007BE5B5 /* mva.png in Resources */,
+				2B8373851C7C9E90009D8CCD /* fundo.png in Resources */,
+				2BDCBC161CFBC152001DBA18 /* gato.wav in Resources */,
+				2B56044E1CE941280097F487 /* GameSceneinto.sks in Resources */,
+				2B2082BA1CF61E2B00484894 /* letrazminuscula.wav in Resources */,
+				2BC4BA301C762A86008783DF /* game.png in Resources */,
+				2B03FBC61CF60A4C00C19201 /* letrasmaiuscula.wav in Resources */,
+				2B0171A91CF2515300667CC6 /* letrahminuscula.wav in Resources */,
+				2BF30C191CF1EF18003CF70E /* fundo.jpg in Resources */,
+				2B03CEE21C53075600F5E914 /* Assets.xcassets in Resources */,
+				2BF30C171CF1EE67003CF70E /* frente.png in Resources */,
+				2B2082981CF6114700484894 /* letrauminuscula.wav in Resources */,
+				2B0171C71CF262D200667CC6 /* leao.png in Resources */,
+				2B20828C1CF60E5B00484894 /* letratminuscula.wav in Resources */,
+				2B4D55E71CF36B790044C0E8 /* dromedario.png in Resources */,
+				2B1862E81CE8E51600A0E6EA /* spark.png in Resources */,
+				2B2082B61CF61E2400484894 /* letrayminuscula.wav in Resources */,
+				2B95ED1E1CF5D3A700BAA948 /* sapo.png in Resources */,
+				2B0171821CF244D300667CC6 /* letracmaiuscula.wav in Resources */,
+				2BD45C601CF4DC5100BA648F /* letrapminuscula.wav in Resources */,
+				2BF1D7651C7F985500F7C075 /* fatec.png in Resources */,
+				2B7AAC511CEFE26F003EBED3 /* video.png in Resources */,
+				2B0171791CF23D0F00667CC6 /* letrabminuscula.wav in Resources */,
+				2B7AAC531CEFE42B003EBED3 /* casa.png in Resources */,
+				2B2082BD1CF61ECC00484894 /* yak.png in Resources */,
+				2B0E192C1CFB4EE1002C7C64 /* letraiiguana.wav in Resources */,
+				2B564F761C875501007FE6C7 /* game.jpg in Resources */,
+				2B0E19331CFB4EE1002C7C64 /* letrapporco.wav in Resources */,
+				2B2082B21CF61DC200484894 /* letraxminuscula.wav in Resources */,
+				2B03CEDD1C53075600F5E914 /* Main.storyboard in Resources */,
+				2B1862DF1CE8E51600A0E6EA /* explosion.wav in Resources */,
+				2B0E19321CFB4EE1002C7C64 /* letraoovelha.wav in Resources */,
+				2B0171A31CF2507C00667CC6 /* hipopotamo.png in Resources */,
+				2BD45C5F1CF4DC5100BA648F /* letrapmaiuscula.wav in Resources */,
+				2BF2443F1CEA30A200497822 /* transitar.png in Resources */,
+				2B0171981CF24C0700667CC6 /* letrafmaiuscula.wav in Resources */,
+				2B0171BC1CF25C9200667CC6 /* letrajmaiuscula.wav in Resources */,
+				2B1862E51CE8E51600A0E6EA /* ObstacleExplode.sks in Resources */,
+				2B01719B1CF24DD700667CC6 /* gato.png in Resources */,
+				2B184BFE1C7538AD00A37B7D /* nome.png in Resources */,
+				2B95ED221CF5DC0200BAA948 /* tartaruga.png in Resources */,
+				2BD45C6F1CF5003100BA648F /* letrarmaiuscula.wav in Resources */,
+				2B0E19291CFB4EE1002C7C64 /* letraffoca.wav in Resources */,
+				2B0E192B1CFB4EE1002C7C64 /* letrahhipopotamo.wav in Resources */,
+				2B0171D31CF267D000667CC6 /* macaco.png in Resources */,
+				2B0171891CF247CA00667CC6 /* letradminuscula.wav in Resources */,
+				2B0171C11CF25F6D00667CC6 /* letrakminuscula.wav in Resources */,
+				2B0171261CF1F97100667CC6 /* letraaavestruz.wav in Resources */,
+				2BD45C501CF4D4EF00BA648F /* narval.png in Resources */,
+				2B0E192A1CFB4EE1002C7C64 /* letraggato.wav in Resources */,
+				2B184BFC1C7534C000A37B7D /* 7.png in Resources */,
+				2B184BFA1C7534C000A37B7D /* 5.png in Resources */,
+				2B0171A11CF24F1000667CC6 /* letragminuscula.wav in Resources */,
+				2B861DC11C9AD2D500218569 /* jogos.png in Resources */,
+				2B1862EA1CE8E51600A0E6EA /* Thrust.sks in Resources */,
+				2B2082AC1CF61CD100484894 /* ximango.png in Resources */,
+				2B16E7821C74CD26007BE5B5 /* mva1.png in Resources */,
+				2BD24B291CEFEB4800164419 /* avestruz.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B03CED01C53075600F5E914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDCBC121CFBBB85001DBA18 /* letragexercicio.swift in Sources */,
+				2B1862E11CE8E51600A0E6EA /* GameScenenave.swift in Sources */,
+				2BD45C6C1CF4FDD100BA648F /* letrar.swift in Sources */,
+				2B2082A01CF6136900484894 /* letrav.swift in Sources */,
+				2B5604531CE941280097F487 /* Helperinto.swift in Sources */,
+				2BC97DD11C77B7720076942E /* info.swift in Sources */,
+				2B20828E1CF60E8D00484894 /* letrau.swift in Sources */,
+				2B1082D21CD00FEF00176CBD /* contatenos.swift in Sources */,
+				2B01718B1CF2488300667CC6 /* letrae.swift in Sources */,
+				2B5604511CE941280097F487 /* HealthBarinto.swift in Sources */,
+				2B56044D1CE941280097F487 /* DepthFirstSearchinto.swift in Sources */,
+				2B5604551CE941280097F487 /* Propertiesinto.swift in Sources */,
+				2BD45C641CF4DE0600BA648F /* letraq.swift in Sources */,
+				2B1862C91CE8E1CC00A0E6EA /* Car.swift in Sources */,
+				2B03CEDA1C53075600F5E914 /* ViewController.swift in Sources */,
+				2B56044B1CE941280097F487 /* Array2Dinto.swift in Sources */,
+				2B1862E71CE8E51600A0E6EA /* SKEmitterNodeExtension.swift in Sources */,
+				2B1504D11CF61F7C00C9B4E1 /* letray.swift in Sources */,
+				2B1862CF1CE8E1CC00A0E6EA /* RoadBeziers.swift in Sources */,
+				2BD45C5C1CF4DB6D00BA648F /* letrap.swift in Sources */,
+				2B1862E21CE8E51600A0E6EA /* GameViewControllernave.swift in Sources */,
+				2B56044C1CE941280097F487 /* cellNodeinto.swift in Sources */,
+				2B1862CE1CE8E1CC00A0E6EA /* GameViewController.swift in Sources */,
+				2B1504D31CF6200000C9B4E1 /* letraz.swift in Sources */,
+				2BD45C581CF4D7AF00BA648F /* letrao.swift in Sources */,
+				2B0171C91CF2633100667CC6 /* letral.swift in Sources */,
+				2B0171A51CF2510B00667CC6 /* letrah.swift in Sources */,
+				2B03CEE01C53075600F5E914 /* MVA.xcdatamodeld in Sources */,
+				2B01717F1CF2447800667CC6 /* letrac.swift in Sources */,
+				2BA30AC91CEEAE0800A83958 /* letraa.swift in Sources */,
+				2BD45C4A1CF4D0DD00BA648F /* letran.swift in Sources */,
+				2B2082AE1CF61D2E00484894 /* letrax.swift in Sources */,
+				2B95ED201CF5D45600BAA948 /* letras.swift in Sources */,
+				2B0171951CF24B7B00667CC6 /* letraf.swift in Sources */,
+				2B1862E91CE8E51600A0E6EA /* StarField.swift in Sources */,
+				2B0171C51CF2606100667CC6 /* letrak.swift in Sources */,
+				2B5604541CE941280097F487 /* Mazeinto.swift in Sources */,
+				2B5604501CE941280097F487 /* GameViewControllerinto.swift in Sources */,
+				2B56044F1CE941280097F487 /* GameSceneinto.swift in Sources */,
+				2B0171751CF23AD300667CC6 /* letrab.swift in Sources */,
+				2B1862CD1CE8E1CC00A0E6EA /* GameScene.swift in Sources */,
+				2B0171851CF246F400667CC6 /* letrad.swift in Sources */,
+				2B0171AD1CF255F900667CC6 /* letrai.swift in Sources */,
+				2B03FBC31CF6084D00C19201 /* letrat.swift in Sources */,
+				2B1862CB1CE8E1CC00A0E6EA /* Extensions.swift in Sources */,
+				2B0171B91CF25BF700667CC6 /* letraj.swift in Sources */,
+				2B01719D1CF24E3700667CC6 /* letrag.swift in Sources */,
+				2B1862C81CE8E1CC00A0E6EA /* AdditionalNodes.swift in Sources */,
+				2BFC4F6D1C7271BC0054990D /* menu.swift in Sources */,
+				2B0171D91CF2687600667CC6 /* letram.swift in Sources */,
+				2B2082A41CF6179200484894 /* letraw.swift in Sources */,
+				2B03CED81C53075600F5E914 /* AppDelegate.swift in Sources */,
+				2B1862CA1CE8E1CC00A0E6EA /* Constants.swift in Sources */,
+				2B1862E31CE8E51600A0E6EA /* HUDNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B03CEDB1C53075600F5E914 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B03CEDC1C53075600F5E914 /* Base */,
+				2BDCBC101CFBB79E001DBA18 /* pt-BR */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B03CEE71C53075600F5E914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B03CEE81C53075600F5E914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B03CEEA1C53075600F5E914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MVA/MVA.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MVA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cleyton.Souza.MVA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2B03CEEB1C53075600F5E914 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MVA/MVA.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MVA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cleyton.Souza.MVA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B03CECF1C53075600F5E914 /* Build configuration list for PBXProject "MVA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B03CEE71C53075600F5E914 /* Debug */,
+				2B03CEE81C53075600F5E914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B03CEE91C53075600F5E914 /* Build configuration list for PBXNativeTarget "MVA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B03CEEA1C53075600F5E914 /* Debug */,
+				2B03CEEB1C53075600F5E914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B03CEDE1C53075600F5E914 /* MVA.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B03CEDF1C53075600F5E914 /* MVA.xcdatamodel */,
+			);
+			currentVersion = 2B03CEDF1C53075600F5E914 /* MVA.xcdatamodel */;
+			path = MVA.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B03CECC1C53075600F5E914 /* Project object */;
+}
